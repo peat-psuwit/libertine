@@ -1,5 +1,6 @@
-ubuntu-push (1.4.3+ubports) vivid; urgency=medium
+libertine (1.4.3+ubports) vivid; urgency=medium
 
+  [Dan Chapman]
   * Imported to UBports
   * Add Jenkinsfile
 
