@@ -68,7 +68,7 @@ class LibertineChroot(BaseContainer):
 
     def create_libertine_container(self, password=None, multiarch=False, verbosity=1):
         # Create the actual chroot
-        command_line = "fakechroot fakeroot debootstrap --verbose --variant=fakechroot {} {}".format(
+        command_line = "fakechroot fakeroot debootstrap --verbose --variant=fakechroot {} {} http://old-releases.ubuntu.com/ubuntu".format(
                     self.installed_release, self.root_path)
         args = shlex.split(command_line)
         cmd = subprocess.Popen(args)
@@ -96,10 +96,7 @@ class LibertineChroot(BaseContainer):
             os.fchmod(fd.fileno(), 0o755)
 
         # Add universe, multiverse, and -updates to the chroot's sources.list
-        if (self.architecture == 'armhf'):
-            archive = "deb http://ports.ubuntu.com/ubuntu-ports "
-        else:
-            archive = "deb http://archive.ubuntu.com/ubuntu "
+        archive = "deb http://old-releases.ubuntu.com/ubuntu "
 
         if verbosity == 1:
             print("Updating chroot's sources.list entries...")
