@@ -13,7 +13,6 @@ Build-Depends: cmake,
                libgirepository1.0-dev,
                libglib2.0-dev,
                libgtest-dev,
-               libsystemsettings-dev,
                libx11-dev,
                lsb-release,
                pkg-config,
@@ -56,19 +55,6 @@ Section: oldlibs
 Description: transitional dummy package for libertine-manager-app
  This is a transitional package to rename libertine as libertine-manager-app.
  It can safely be removed.
-
-Package: ubuntu-system-settings-libertine
-Architecture: any
-Depends: libertine-qt-common,
-         libertine-tools,
-         python3-libertine-lxd,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Enhances: ubuntu-system-settings
-Description: system settings plugin for managing container-based applications
- System Settings graphical interface to assist in the maintenance of legacy
- deb-packaged applications generally based around the X11 display manager on
- an Ubuntu "Snappy Personal" system.
 
 Package: libertine-qt-common
 Architecture: any
