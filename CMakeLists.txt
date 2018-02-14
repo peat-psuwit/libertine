@@ -50,7 +50,6 @@ add_subdirectory(libertine)
 add_subdirectory(python)
 add_subdirectory(data)
 add_subdirectory(tools)
-add_subdirectory(pasted)
 add_subdirectory(po)
 
 include(CTest)

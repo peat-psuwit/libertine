@@ -1,6 +1,5 @@
 usr/bin/libertine-launch
 usr/bin/libertine-xmir
-usr/bin/pasted
 usr/lib/python*/*/libertine/launcher
 usr/share/man/*/libertine-launch.1
 usr/share/man/*/libertine-xmir.1
