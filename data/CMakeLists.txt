@@ -12,6 +12,8 @@ install(FILES libertine-lxc-sudo libertine-lxd-sudo
 # libertined
 install(FILES com.canonical.libertine.Service.service
         DESTINATION ${CMAKE_INSTALL_DATADIR}/dbus-1/services)
+        
+pkg_check_modules(systemd libsystemd)
 pkg_get_variable(SYSTEMD_USER_DIR systemd systemduserunitdir)
 install(FILES libertine.service
         DESTINATION ${SYSTEMD_USER_DIR}/)

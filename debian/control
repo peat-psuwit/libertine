@@ -4,6 +4,8 @@ Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends: cmake,
                cmake-extras,
+               libsystemd-dev,
+               systemd,
                debhelper (>= 9),
                dh-translations,
                gobject-introspection,
