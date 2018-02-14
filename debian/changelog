@@ -1,6 +1,6 @@
-libertine (1.7.2+ubports) xenial; urgency=medium
+libertine (1.7.2+ubports) bionic; urgency=medium
 
-  * Rebuild for xenial
+  * Rebuild for bionic
 
  -- Dan Chapman <dan@ubports.com>  Fri, 12 Jan 2018 11:13:25 +0000
 
@@ -232,7 +232,7 @@ libertine (1.4.3+17.04.20161121.2-0ubuntu1) zesty; urgency=medium
 
   [ Chris Townsend ]
   * Fix old libertine package breaks/replaces version for proper
-    upgrading. 
+    upgrading.
 
  -- Christopher Townsend <christopher.townsend@canonical.com>  Mon, 21 Nov 2016 19:45:35 +0000
 
@@ -314,7 +314,7 @@ libertine (1.4.1+16.10.20160914-0ubuntu1) yakkety; urgency=medium
   [ Larry Price ]
   * Return user to homepage when container has been destroyed from under them.
     (LP: #1604015)
-  * Introduce a method in ContainersConfig to refresh the database depending 
+  * Introduce a method in ContainersConfig to refresh the database depending
     on an md5 checksum.
   * Creating the first container moves user to ContainersView screen.
     (LP: #1615697)
@@ -370,7 +370,7 @@ libertine (1.3+16.10.20160722.1-0ubuntu1) yakkety; urgency=medium
   * Hotfixes for the 1.3 release:
     - Install software-properties-common in vivid chroot containers before
       adding stable overlay.
-    - Update bash completions for new configure syntax. 
+    - Update bash completions for new configure syntax.
 
  -- Christopher Townsend <christopher.townsend@canonical.com>  Fri, 22 Jul 2016 16:45:29 +0000
 
@@ -632,7 +632,7 @@ libertine (0.99.12+16.04.20160321-0ubuntu1) xenial; urgency=medium
 libertine (0.99.11+16.04.20160302-0ubuntu1) xenial; urgency=medium
 
   [ Chris Townsend ]
-  * Add a way to call Xmir with different options than what is hardcoded in 
+  * Add a way to call Xmir with different options than what is hardcoded in
     ubuntu-app-launch. (LP: #1542028)
   * Use '-title @' Xmir option to set proper XMir window titles.
   * Add ability to enable or disable i386 multiarch support in a Libertine
@@ -673,7 +673,7 @@ libertine (0.99.9+16.04.20160128-0ubuntu1) xenial; urgency=medium
   [ Chris Townsend ]
   * puritine-click.conf: Instead of just creating the user-data dir,
     we should actually copy the contents of the click package's user-data
-    in case there are things in it we need. 
+    in case there are things in it we need.
   * GUI: Add a page to the GUI to display basic package info for a
     container.
   * GUI: When using the GUI to install a container, remove the whole
@@ -728,7 +728,7 @@ libertine (0.99.7+16.04.20151209-0ubuntu1) xenial; urgency=medium
   [ Chris Townsend ]
   * Use Matchbox as the window manager instead of Compiz.  Much simpler and cleaner...
   * Install recommends for packages in the container.
-  * Use Compiz as a fallback window manager if Matchbox is not found in the container. 
+  * Use Compiz as a fallback window manager if Matchbox is not found in the container.
 
   [ CI Train Bot ]
   * No-change rebuild.
@@ -809,9 +809,9 @@ libertine (0.99.2+15.10.20150918-0ubuntu1) wily; urgency=medium
   [ Chris Townsend ]
   * Rename desktop files to match the Puritine container name.
   * Add an upstart job to link to the Puritine container data.
-  * Add a function to determine the architecture used to create the 
+  * Add a function to determine the architecture used to create the
     container and set the container's sources.list entries appropriately.
-  * Add support for explicitly naming a container when creating one and 
+  * Add support for explicitly naming a container when creating one and
     various variable naming cleanup.
   * Add a policy-rc.d script to the chroot to keep certain services from
     starting during package installation.
