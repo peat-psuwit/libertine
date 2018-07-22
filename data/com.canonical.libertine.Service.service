@@ -1,4 +1,3 @@
 [D-BUS Service]
 Name=com.canonical.libertine.Service
-Exec=/usr/bin/libertined
-SystemdService=libertine.service
+Exec=/usr/bin/libertined --cache-output
