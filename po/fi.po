@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-15 14:24-0400\n"
-"PO-Revision-Date: 2019-12-22 01:00+0000\n"
-"Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
+"PO-Revision-Date: 2020-02-10 12:21+0000\n"
+"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "libertine/fi/>\n"
 "Language: fi\n"
@@ -63,7 +63,7 @@ msgstr "asennettu"
 
 #: ../libertine/ContainerManager.cpp:25
 msgid "%1 failed to start"
-msgstr ""
+msgstr "%1 käynnistäminen epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:26
 msgid "Installation of package %1 failed"
@@ -75,19 +75,19 @@ msgstr "Paketin %1 poistaminen epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:28
 msgid "Searching for query %1 failed"
-msgstr ""
+msgstr "Haku kyselylle %1 epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:29
 msgid "Updating container %1 failed"
-msgstr ""
+msgstr "Säiliön %1 päivittäminen epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:30
 msgid "Creating container %1 failed"
-msgstr ""
+msgstr "Säiliön %1 luonti epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:31
 msgid "Destroying container %1 failed"
-msgstr ""
+msgstr "Säiliön %1 tuhoaminen epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:32
 msgid "Running command %1 failed"
@@ -95,11 +95,11 @@ msgstr "Komennon %1 suorittaminen epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:33
 msgid "Attempt to configure container %1 failed"
-msgstr ""
+msgstr "Yritys muokata säiliötä %1 epäonnistui"
 
 #: ../libertine/ContainerManager.cpp:34
 msgid "Attempt to set container as default failed"
-msgstr ""
+msgstr "Säiliön oletukseksiasettamisyritys epäonnistui"
 
 #: ../libertine/qml/PackageExistsDialog.qml:28
 msgid "The %1 package is already installed."
@@ -119,7 +119,7 @@ msgstr "Palaa hakutuloksiin"
 
 #: ../libertine/qml/ContainersView.qml:33
 msgid "My Containers"
-msgstr ""
+msgstr "Omat säiliöt"
 
 #: ../libertine/qml/ContainersView.qml:91 ../libertine/qml/HomeView.qml:218
 msgid "delete"
@@ -127,15 +127,15 @@ msgstr "poista"
 
 #: ../libertine/qml/ContainersView.qml:92
 msgid "Delete Container"
-msgstr ""
+msgstr "Poista säiliö"
 
 #: ../libertine/qml/ContainersView.qml:106 ../libertine/qml/HomeView.qml:230
 msgid "info"
-msgstr ""
+msgstr "tietoja"
 
 #: ../libertine/qml/ContainersView.qml:107
 msgid "Container Info"
-msgstr ""
+msgstr "Säiliön tiedot"
 
 #: ../libertine/qml/ContainersView.qml:115
 msgid "edit"
@@ -143,7 +143,7 @@ msgstr "muokkaa"
 
 #: ../libertine/qml/ContainersView.qml:116
 msgid "Container Apps"
-msgstr ""
+msgstr "Säiliö-sovellukset"
 
 #: ../libertine/qml/SearchPackagesDialog.qml:26
 #: ../libertine/qml/SearchResultsView.qml:36
@@ -152,7 +152,7 @@ msgstr "Hae paketteja"
 
 #: ../libertine/qml/SearchPackagesDialog.qml:27
 msgid "Search archives for packages"
-msgstr ""
+msgstr "Etsi paketteja arkistosta"
 
 #: ../libertine/qml/SearchPackagesDialog.qml:31
 msgid "search"
@@ -162,7 +162,7 @@ msgstr "hae"
 #: ../libertine/qml/HomeView.qml:68
 #: ../libertine/qml/ContainerOptionsDialog.qml:77
 msgid "OK"
-msgstr ""
+msgstr "Selvä"
 
 #: ../libertine/qml/SearchPackagesDialog.qml:57
 #: ../libertine/qml/HomeView.qml:88
@@ -172,191 +172,192 @@ msgstr "Keskeytä"
 
 #: ../libertine/qml/PackageInfoView.qml:30
 msgid "Information for the %1 package"
-msgstr ""
+msgstr "Tiedot paketille %1"
 
 #: ../libertine/qml/PackageInfoView.qml:35
 msgid "Obtaining package version…"
-msgstr ""
+msgstr "Noutaa paketin versiota…"
 
 #: ../libertine/qml/PackageInfoView.qml:60
 msgid "Package version"
-msgstr ""
+msgstr "Paketin versio"
 
 #: ../libertine/qml/PackageInfoView.qml:68
 msgid "Install status"
-msgstr ""
+msgstr "Asennuksen tila"
 
 #: ../libertine/qml/PackageInfoView.qml:85
 #: ../libertine/qml/ContainerInfoView.qml:97
 msgid "Operation details"
-msgstr ""
+msgstr "Toimenpiteen yksityiskohdat"
 
 #: ../libertine/qml/PackageInfoView.qml:159
 msgid "Unknown"
-msgstr ""
+msgstr "Tuntematon"
 
 #: ../libertine/qml/SearchResultsView.qml:31
 msgid "Package Search Results"
-msgstr ""
+msgstr "Paketinetsinnän tulokset"
 
 #: ../libertine/qml/SearchResultsView.qml:35
 msgid "Search"
-msgstr ""
+msgstr "Etsi"
 
 #: ../libertine/qml/SearchResultsView.qml:52
 msgid "No Search Results Found"
-msgstr ""
+msgstr "Hakutuloksia ei löytynyt"
 
 #: ../libertine/qml/SearchResultsView.qml:57
 msgid "Search Again"
-msgstr ""
+msgstr "Etsi uudestaan"
 
 #: ../libertine/qml/SearchResultsView.qml:67
 msgid "Return to Apps Page"
-msgstr ""
+msgstr "Palaa sovellussivulle"
 
 #: ../libertine/qml/SearchResultsView.qml:95
 msgid "Searching for packages…"
-msgstr ""
+msgstr "Paketteja etsitään…"
 
 #: ../libertine/qml/SearchResults.qml:60
 #: ../libertine/qml/DebianPackagePicker.qml:70
 msgid "Install Package"
-msgstr ""
+msgstr "Asenna paketti"
 
 #: ../libertine/qml/ManageContainer.qml:29
 msgid "Manage %1"
-msgstr ""
+msgstr "Hallinnoi %1"
 
 #: ../libertine/qml/ManageContainer.qml:69
 #: ../libertine/qml/ContainerOptionsDialog.qml:39
 msgid "i386 multiarch support"
-msgstr ""
+msgstr "i386 moniarkkitehtuurituki"
 
 #: ../libertine/qml/ManageContainer.qml:73
 msgid "Additional archives and PPAs"
-msgstr ""
+msgstr "Lisäarkistot ja PPA:t"
 
 #: ../libertine/qml/ManageContainer.qml:84
 msgid "Update…"
-msgstr ""
+msgstr "Päivitä…"
 
 #: ../libertine/qml/ManageContainer.qml:100
 msgid "Update container"
-msgstr ""
+msgstr "Päivitä säiliö"
 
 #: ../libertine/qml/ManageContainer.qml:117
 msgid "Default container"
-msgstr ""
+msgstr "Oletussäiliö"
 
 #: ../libertine/qml/DebianPackagePicker.qml:28
 msgid "Available Debian Packages to Install"
-msgstr ""
+msgstr "Käytettävissä olevat Debian-paketit asennettavaksi"
 
 #: ../libertine/qml/DebianPackagePicker.qml:87
 msgid "No Debian packages available"
-msgstr ""
+msgstr "Debian-paketteja ei saatavilla"
 
 #: ../libertine/qml/HomeView.qml:29
 msgid "Classic Apps - %1"
-msgstr ""
+msgstr "Perinteiset sovellukset - %1"
 
 #: ../libertine/qml/HomeView.qml:48
 msgid "Install new package"
-msgstr ""
+msgstr "Asenna uusi paketti"
 
 #: ../libertine/qml/HomeView.qml:49
 msgid "Enter exact package name or full path to a Debian package file"
 msgstr ""
+"Syötä paketin täsmällinen nimi tai polku Debian pakettiin sen kokonaisuudessa"
 
 #: ../libertine/qml/HomeView.qml:59
 msgid "Package name or Debian package path"
-msgstr ""
+msgstr "Paketin nimi tai polku Debian-pakettiin"
 
 #: ../libertine/qml/HomeView.qml:78
 msgid ""
 "The %1 package is already installed. Please try a different package name."
-msgstr ""
+msgstr "Paketti %1 on jo asennettu. Kokeile eri paketin nimeä."
 
 #: ../libertine/qml/HomeView.qml:105
 msgid "Manage Container"
-msgstr ""
+msgstr "Hallinnoi säiliötä"
 
 #: ../libertine/qml/HomeView.qml:112
 msgid "Container Information"
-msgstr ""
+msgstr "Säiliön tiedot"
 
 #: ../libertine/qml/HomeView.qml:119
 msgid "Switch Container"
-msgstr ""
+msgstr "Vaihda säiliö"
 
 #: ../libertine/qml/HomeView.qml:135
 msgid "Enter package name or Debian file"
-msgstr ""
+msgstr "Syötä paketin nimi tai Debian-tiedosto"
 
 #: ../libertine/qml/HomeView.qml:143
 msgid "Choose Debian package to install"
-msgstr ""
+msgstr "Valitse asennettava Debian-paketti"
 
 #: ../libertine/qml/HomeView.qml:152
 msgid "Search archives for a package"
-msgstr ""
+msgstr "Etsi pakettia arkistosta"
 
 #: ../libertine/qml/HomeView.qml:219
 msgid "Remove Package"
-msgstr ""
+msgstr "Poista paketti"
 
 #: ../libertine/qml/HomeView.qml:231
 msgid "Package Info"
-msgstr ""
+msgstr "Paketin tiedot"
 
 #: ../libertine/qml/HomeView.qml:248
 msgid "No packages are installed"
-msgstr ""
+msgstr "Paketteja ei ole asennettuna"
 
 #: ../libertine/qml/ExtraArchivesView.qml:27
 msgid "Additional Archives"
-msgstr ""
+msgstr "Lisäarkistot"
 
 #: ../libertine/qml/ExtraArchivesView.qml:31
 msgid "add"
-msgstr ""
+msgstr "lisää"
 
 #: ../libertine/qml/ExtraArchivesView.qml:32
 msgid "Add a new archive"
-msgstr ""
+msgstr "Lisää uusi arkisto"
 
 #: ../libertine/qml/ExtraArchivesView.qml:75
 msgid "remove"
-msgstr ""
+msgstr "poista"
 
 #: ../libertine/qml/ExtraArchivesView.qml:76
 msgid "Remove extra archive"
-msgstr ""
+msgstr "Poista lisäarkisto"
 
 #: ../libertine/qml/ExtraArchivesView.qml:93
 msgid "No additional archives and PPA's have been added"
-msgstr ""
+msgstr "Lisäarkistoja tai PPA:ta ei ole lisättynä"
 
 #: ../libertine/qml/ExtraArchivesView.qml:126
 msgid "Deleting archive failed"
-msgstr ""
+msgstr "Arkiston poistaminen epäonnistui"
 
 #: ../libertine/qml/GenericErrorDialog.qml:39
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Kopioi leikepöydälle"
 
 #: ../libertine/qml/GenericErrorDialog.qml:46
 msgid "Dismiss"
-msgstr ""
+msgstr "Hylkää"
 
 #: ../libertine/qml/WelcomeView.qml:28
 msgid "Welcome"
-msgstr ""
+msgstr "Tervetuloa"
 
 #: ../libertine/qml/WelcomeView.qml:50
 msgid "Welcome to the Ubuntu Legacy Application Support Manager."
-msgstr ""
+msgstr "Tervetuloa Ubuntun vanhoillissovellusten hallintatukeen."
 
 #: ../libertine/qml/WelcomeView.qml:58
 msgid ""
@@ -364,38 +365,40 @@ msgid ""
 "Downloading and setting up the required environment takes some time and "
 "network bandwidth."
 msgstr ""
+"Et ole määrittänyt vanhoillissovellusten tukea tällä hetkellä. Tarvittavan "
+"ympäristön lataaminen ja asennus vie jonkin verran aikaa ja verkkokaistaa."
 
 #: ../libertine/qml/WelcomeView.qml:66
 msgid "Install"
-msgstr ""
+msgstr "Asenna"
 
 #: ../libertine/qml/ContainerInfoView.qml:30
 msgid "Container information for %1"
-msgstr ""
+msgstr "%1 säiliötiedot"
 
 #: ../libertine/qml/ContainerInfoView.qml:56
 msgid "ID"
-msgstr ""
+msgstr "ID-tunniste"
 
 #: ../libertine/qml/ContainerInfoView.qml:64
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: ../libertine/qml/ContainerInfoView.qml:72
 msgid "Distribution"
-msgstr ""
+msgstr "Jakelu"
 
 #: ../libertine/qml/ContainerInfoView.qml:80
 msgid "Status"
-msgstr ""
+msgstr "Tila"
 
 #: ../libertine/qml/AddExtraArchiveView.qml:27
 msgid "Add Archive"
-msgstr ""
+msgstr "Lisää arkisto"
 
 #: ../libertine/qml/AddExtraArchiveView.qml:42
 msgid "New archive identifier, e.g."
-msgstr ""
+msgstr "Uusi arkistontunnistaja, esim."
 
 #: ../libertine/qml/AddExtraArchiveView.qml:50
 msgid ""
@@ -403,37 +406,42 @@ msgid ""
 "ppa:user/repository\n"
 "deb http://myserver/repo stable repo"
 msgstr ""
+"moniversumi\n"
+"ppa:käyttäjä/ohjelmistovarasto\n"
+"deb http://myserver/repo vakaa ohjelmistovarasto"
 
 #: ../libertine/qml/AddExtraArchiveView.qml:73
 msgid "(Optional) Public signing key for archive"
-msgstr ""
+msgstr "(Valinnainen) arkiston julkinen allekirjoitusavain"
 
 #: ../libertine/qml/AddExtraArchiveView.qml:90
 msgid "Add"
-msgstr ""
+msgstr "Lisää"
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:27
 msgid "Container Options"
-msgstr ""
+msgstr "Säiliön vaihtoehdot"
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:28
 msgid "Configure options for container creation."
-msgstr ""
+msgstr "Määritä vaihtoehdot säiliön luontia varten."
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:49
 msgid "Enter a name for the container or leave blank for default name:"
-msgstr ""
+msgstr "Syötä säiliölle nimi tai jätä tyhjäksi vakionimeä varten:"
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:55
 msgid "container name"
-msgstr ""
+msgstr "säiliönnimi"
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:62
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
+"Syötä salasana käytettäväksi Libertine-säiliölle tai jätä tyhjäksi ilman "
+"salasanan asettamista:"
 
 #: ../libertine/qml/ContainerOptionsDialog.qml:69
 msgid "password"
-msgstr ""
+msgstr "salasana"
