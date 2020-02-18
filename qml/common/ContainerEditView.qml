@@ -131,7 +131,7 @@ Page {
         Dialog {
             id: addAppsDialog
             title: i18n.tr("Install new package")
-            text: i18n.tr("Choose how do you want to get the package you want to install")
+            text: i18n.tr("Choose a package installation method")
             __closeOnDismissAreaPress: true
 
             Button {
