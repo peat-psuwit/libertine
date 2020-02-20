@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-15 14:24-0400\n"
+"POT-Creation-Date: 2020-02-18 16:43-0600\n"
 "PO-Revision-Date: 2019-01-12 20:23+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
@@ -19,430 +19,218 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.1.1\n"
 
-#: ../libertine/ContainerConfig.cpp:147 ../libertine/ContainerConfig.cpp:184
-msgid "new"
-msgstr "nou"
-
-#: ../libertine/ContainerConfig.cpp:148 ../libertine/ContainerConfig.cpp:185
-#: ../libertine/qml/ContainersView.qml:80 ../libertine/qml/HomeView.qml:205
-#: ../libertine/qml/ExtraArchivesView.qml:67
-msgid "installing"
-msgstr "installende"
-
-#: ../libertine/ContainerConfig.cpp:149 ../libertine/qml/ContainersView.qml:117
-#: ../libertine/qml/ManageContainer.qml:85
-#: ../libertine/qml/ManageContainer.qml:152
-msgid "ready"
-msgstr "prontu"
-
-#: ../libertine/ContainerConfig.cpp:150 ../libertine/qml/ContainersView.qml:118
-#: ../libertine/qml/ManageContainer.qml:97
-#: ../libertine/qml/ManageContainer.qml:148
-msgid "updating"
-msgstr "atualizende"
-
-#: ../libertine/ContainerConfig.cpp:151 ../libertine/ContainerConfig.cpp:188
-#: ../libertine/qml/ContainersView.qml:81 ../libertine/qml/HomeView.qml:206
-#: ../libertine/qml/ExtraArchivesView.qml:68
-msgid "removing"
-msgstr "cantzellende"
-
-#: ../libertine/ContainerConfig.cpp:152 ../libertine/ContainerConfig.cpp:189
-#: ../libertine/qml/PackageInfoView.qml:148
-#: ../libertine/qml/ContainerInfoView.qml:143
-msgid "removed"
-msgstr "cantzelladu"
-
-#: ../libertine/ContainerConfig.cpp:153 ../libertine/ContainerConfig.cpp:187
-msgid "failed"
-msgstr "faddidu"
-
-#: ../libertine/ContainerConfig.cpp:186
-msgid "installed"
-msgstr "installadu"
-
-#: ../libertine/ContainerManager.cpp:25
-msgid "%1 failed to start"
-msgstr "faddina aviende %1"
-
-#: ../libertine/ContainerManager.cpp:26
-msgid "Installation of package %1 failed"
-msgstr "Faddina in s'installatzione de su pachete %1"
-
-#: ../libertine/ContainerManager.cpp:27
-msgid "Removal of package %1 failed"
-msgstr "Faddina eliminende su pachete %1"
-
-#: ../libertine/ContainerManager.cpp:28
-msgid "Searching for query %1 failed"
-msgstr "Faddina in sa chirca de %1"
-
-#: ../libertine/ContainerManager.cpp:29
-msgid "Updating container %1 failed"
-msgstr "Faddina in s'atualizatzione de su cuntenidore %1"
-
-#: ../libertine/ContainerManager.cpp:30
-msgid "Creating container %1 failed"
-msgstr "Faddina in sa creatzione de su cuntenidore %1"
-
-#: ../libertine/ContainerManager.cpp:31
-msgid "Destroying container %1 failed"
-msgstr "Faddina in sa distrutzione de su cuntenidore %1"
-
-#: ../libertine/ContainerManager.cpp:32
-msgid "Running command %1 failed"
-msgstr "Faddina in s'esecutzione de s'òrdine %1"
-
-#: ../libertine/ContainerManager.cpp:33
-msgid "Attempt to configure container %1 failed"
-msgstr "Faddina in su tentativu de cunfiguratzione de su cuntenidore %1"
-
-#: ../libertine/ContainerManager.cpp:34
-msgid "Attempt to set container as default failed"
+#: ../python/libertine/service/container_control_client.py:43
+#, python-brace-format
+msgid "Container app '{application_name}' is not valid."
 msgstr ""
-"Faddina in su tentativu de cunfigurare su cuntenidore comente predefinidu"
 
-#: ../libertine/qml/PackageExistsDialog.qml:28
-msgid "The %1 package is already installed."
-msgstr "Su pachete %1 est giai installadu."
+#: ../python/libertine/service/container.py:35
+msgid "Using AptCache not currently supported in snap environment"
+msgstr ""
 
-#: ../libertine/qml/PackageExistsDialog.qml:29
-msgid "Search again or return to search results."
-msgstr "Torra a chircare o torra a is resurtados de chirca."
+#: ../python/libertine/launcher/session.py:103
+#, python-brace-format
+msgid "close detected on {socket}"
+msgstr ""
 
-#: ../libertine/qml/PackageExistsDialog.qml:33
-msgid "Search again"
-msgstr "Torra a chircare"
+#: ../python/libertine/launcher/session.py:172
+#, python-brace-format
+msgid "launching {launch_task}"
+msgstr ""
 
-#: ../libertine/qml/PackageExistsDialog.qml:43
-msgid "Return to search results"
-msgstr "Torra a is resurtados de chirca"
+#: ../python/libertine/launcher/session.py:332
+msgid "SIGCHLD received"
+msgstr ""
 
-#: ../libertine/qml/ContainersView.qml:33
-msgid "My Containers"
-msgstr "Cuntenidores mios"
+#: ../python/libertine/launcher/session.py:334
+msgid "launched program exited"
+msgstr ""
 
-#: ../libertine/qml/ContainersView.qml:91 ../libertine/qml/HomeView.qml:218
-msgid "delete"
-msgstr "cantzella"
+#: ../python/libertine/launcher/session.py:336
+msgid "SIGINT received"
+msgstr ""
 
-#: ../libertine/qml/ContainersView.qml:92
-msgid "Delete Container"
-msgstr "Cantzella su cuntenidore"
+#: ../python/libertine/launcher/session.py:337
+msgid "keyboard interrupt"
+msgstr ""
 
-#: ../libertine/qml/ContainersView.qml:106 ../libertine/qml/HomeView.qml:230
-msgid "info"
-msgstr "informatziones"
+#: ../python/libertine/launcher/session.py:339
+msgid "SIGTERM received"
+msgstr ""
 
-#: ../libertine/qml/ContainersView.qml:107
-msgid "Container Info"
+#: ../python/libertine/launcher/session.py:340
+msgid "terminate"
+msgstr ""
+
+#: ../python/libertine/launcher/session.py:342
+#, python-brace-format
+msgid "unknown signal {signal} received"
+msgstr ""
+
+#: ../python/libertine/launcher/config.py:128
+msgid "Launch an application natively or in a Libertine container"
+msgstr ""
+
+#: ../python/libertine/launcher/config.py:130
+msgid "Container identifier when launching containerized apps"
+msgstr ""
+
+#: ../python/libertine/launcher/config.py:135
+msgid "Set an environment variable"
+msgstr ""
+
+#: ../python/libertine/launcher/config.py:138
+msgid "exec line"
+msgstr ""
+
+#: ../python/libertine/launcher/config.py:142
+msgid "Must specify an exec line"
+msgstr ""
+
+#: ../tools/libertine-shell:41
+msgid "Launch an SSH session within a lxc/lxd Libertine container"
+msgstr ""
+
+#: ../tools/libertine-shell:43
+#, fuzzy
+#| msgid "Container Info"
+msgid "Container identifier"
 msgstr "Informatziones de su cuntenidore"
 
-#: ../libertine/qml/ContainersView.qml:115
-msgid "edit"
-msgstr "modìfica"
-
-#: ../libertine/qml/ContainersView.qml:116
-msgid "Container Apps"
-msgstr "Aplicatziones de su cuntenidore"
-
-#: ../libertine/qml/SearchPackagesDialog.qml:26
-#: ../libertine/qml/SearchResultsView.qml:36
-msgid "Search for packages"
-msgstr "Chirca pachetes"
-
-#: ../libertine/qml/SearchPackagesDialog.qml:27
-msgid "Search archives for packages"
-msgstr "Chirca pachetes in su depòsitu"
-
-#: ../libertine/qml/SearchPackagesDialog.qml:31
-msgid "search"
-msgstr "chirca"
-
-#: ../libertine/qml/SearchPackagesDialog.qml:39
-#: ../libertine/qml/HomeView.qml:68
-#: ../libertine/qml/ContainerOptionsDialog.qml:77
-msgid "OK"
-msgstr "AB"
-
-#: ../libertine/qml/SearchPackagesDialog.qml:57
-#: ../libertine/qml/HomeView.qml:88
-#: ../libertine/qml/ContainerOptionsDialog.qml:88
-msgid "Cancel"
-msgstr "Annulla"
-
-#: ../libertine/qml/PackageInfoView.qml:30
-msgid "Information for the %1 package"
-msgstr "Informatziones de su pachete %1"
-
-#: ../libertine/qml/PackageInfoView.qml:35
-msgid "Obtaining package version…"
-msgstr "Otenende sa versione de su pachete…"
-
-#: ../libertine/qml/PackageInfoView.qml:60
-msgid "Package version"
-msgstr "Versione de su pachete"
-
-#: ../libertine/qml/PackageInfoView.qml:68
-msgid "Install status"
-msgstr "Istadu de s'installatzione"
-
-#: ../libertine/qml/PackageInfoView.qml:85
-#: ../libertine/qml/ContainerInfoView.qml:97
-msgid "Operation details"
-msgstr "Detàllios de s'operatzione"
-
-#: ../libertine/qml/PackageInfoView.qml:159
-msgid "Unknown"
-msgstr "Disconnotu"
-
-#: ../libertine/qml/SearchResultsView.qml:31
-msgid "Package Search Results"
-msgstr "Resurtados de sa chirca de pachetes"
-
-#: ../libertine/qml/SearchResultsView.qml:35
-msgid "Search"
-msgstr "Chirca"
-
-#: ../libertine/qml/SearchResultsView.qml:52
-msgid "No Search Results Found"
-msgstr "Perunu resurtadu agatadu"
-
-#: ../libertine/qml/SearchResultsView.qml:57
-msgid "Search Again"
-msgstr "Torra a chircare"
-
-#: ../libertine/qml/SearchResultsView.qml:67
-msgid "Return to Apps Page"
-msgstr "Torra a sa pàgina de aplicatziones"
-
-#: ../libertine/qml/SearchResultsView.qml:95
-msgid "Searching for packages…"
-msgstr "Chirchende pachetes…"
-
-#: ../libertine/qml/SearchResults.qml:60
-#: ../libertine/qml/DebianPackagePicker.qml:70
-msgid "Install Package"
-msgstr "Installa su pachete"
-
-#: ../libertine/qml/ManageContainer.qml:29
-msgid "Manage %1"
-msgstr "Gesti %1"
-
-#: ../libertine/qml/ManageContainer.qml:69
-#: ../libertine/qml/ContainerOptionsDialog.qml:39
-msgid "i386 multiarch support"
-msgstr "Suportu i386 multiarchitetura"
-
-#: ../libertine/qml/ManageContainer.qml:73
-msgid "Additional archives and PPAs"
-msgstr "Depòsitos e PPA additzionales"
-
-#: ../libertine/qml/ManageContainer.qml:84
-msgid "Update…"
-msgstr "Atualiza…"
-
-#: ../libertine/qml/ManageContainer.qml:100
-msgid "Update container"
-msgstr "Atualiza su cuntenidore"
-
-#: ../libertine/qml/ManageContainer.qml:117
-msgid "Default container"
-msgstr "Cuntenidore predefinidu"
-
-#: ../libertine/qml/DebianPackagePicker.qml:28
-msgid "Available Debian Packages to Install"
-msgstr "Pachetes de Debian a disponimentu pro s'installatzione"
-
-#: ../libertine/qml/DebianPackagePicker.qml:87
-msgid "No Debian packages available"
-msgstr "Perunu pachete de Debian a disponimentu"
-
-#: ../libertine/qml/HomeView.qml:29
-msgid "Classic Apps - %1"
-msgstr "Aplicatziones clàssicas - %1"
-
-#: ../libertine/qml/HomeView.qml:48
-msgid "Install new package"
-msgstr "Installa unu pachete nou"
-
-#: ../libertine/qml/HomeView.qml:49
-msgid "Enter exact package name or full path to a Debian package file"
-msgstr ""
-"Inserta su nòmine esatu de su pachete o su percursu cumpletu de un'archìviu "
-"de pachete de Debian"
-
-#: ../libertine/qml/HomeView.qml:59
-msgid "Package name or Debian package path"
-msgstr "Nòmine de su pachete o percursu de s'archìviu de su pachete de Debian"
-
-#: ../libertine/qml/HomeView.qml:78
-msgid ""
-"The %1 package is already installed. Please try a different package name."
-msgstr ""
-"Su pachete %1 est giai installadu. Proa cun unu nòmine de pachete diferente."
-
-#: ../libertine/qml/HomeView.qml:105
-msgid "Manage Container"
-msgstr "Gesti cuntenidore"
-
-#: ../libertine/qml/HomeView.qml:112
-msgid "Container Information"
-msgstr "Informatziones de su cuntenidore"
-
-#: ../libertine/qml/HomeView.qml:119
-msgid "Switch Container"
-msgstr "Cola su cuntenidore"
-
-#: ../libertine/qml/HomeView.qml:135
-msgid "Enter package name or Debian file"
-msgstr "Inserta nòmine de unu pachete o un'archìviu de Debian"
-
-#: ../libertine/qml/HomeView.qml:143
-msgid "Choose Debian package to install"
-msgstr "Sèbera unu pachete de Debian pro installare"
-
-#: ../libertine/qml/HomeView.qml:152
-msgid "Search archives for a package"
-msgstr "Chirca unu pachete in is depòsitos"
-
-#: ../libertine/qml/HomeView.qml:219
-msgid "Remove Package"
-msgstr "Boga su pachete"
-
-#: ../libertine/qml/HomeView.qml:231
-msgid "Package Info"
-msgstr "Informatziones de su pachete"
-
-#: ../libertine/qml/HomeView.qml:248
-msgid "No packages are installed"
-msgstr "Perunu pachete installadu"
-
-#: ../libertine/qml/ExtraArchivesView.qml:27
-msgid "Additional Archives"
-msgstr "Depòsitos additzionales"
-
-#: ../libertine/qml/ExtraArchivesView.qml:31
-msgid "add"
-msgstr "agiunghe"
-
-#: ../libertine/qml/ExtraArchivesView.qml:32
-msgid "Add a new archive"
-msgstr "Agiunghe unu depòsitu nou"
-
-#: ../libertine/qml/ExtraArchivesView.qml:75
-msgid "remove"
-msgstr "boga"
-
-#: ../libertine/qml/ExtraArchivesView.qml:76
-msgid "Remove extra archive"
-msgstr "Boga s'archìviu extra"
-
-#: ../libertine/qml/ExtraArchivesView.qml:93
-msgid "No additional archives and PPA's have been added"
-msgstr "Perunu archìviu additzionale o PPA agiuntu"
-
-#: ../libertine/qml/ExtraArchivesView.qml:126
-msgid "Deleting archive failed"
-msgstr "Faddina in s'eliminatzione de su depòsitu"
-
-#: ../libertine/qml/GenericErrorDialog.qml:39
-msgid "Copy to Clipboard"
-msgstr "Còpia in punta de billete"
-
-#: ../libertine/qml/GenericErrorDialog.qml:46
-msgid "Dismiss"
-msgstr "Iscarta"
-
-#: ../libertine/qml/WelcomeView.qml:28
-msgid "Welcome"
-msgstr "Ti donamus su benebènnidu"
-
-#: ../libertine/qml/WelcomeView.qml:50
-msgid "Welcome to the Ubuntu Legacy Application Support Manager."
-msgstr ""
-"Ti donamus su benebènnidu a su gestore de suportu pro aplicatziones eredadas "
-"de Ubuntu."
-
-#: ../libertine/qml/WelcomeView.qml:58
-msgid ""
-"You do not have Legacy Application Support configured at this time.  "
-"Downloading and setting up the required environment takes some time and "
-"network bandwidth."
-msgstr ""
-"Non as cunfiguradu su suportu pro aplicatziones eredadas de Ubuntu. "
-"S'iscarrigamentu e sa cunfiguratzione de s'ambiente netzessàriu rechedet "
-"carchi tempus e banda."
-
-#: ../libertine/qml/WelcomeView.qml:66
-msgid "Install"
-msgstr "Installa"
-
-#: ../libertine/qml/ContainerInfoView.qml:30
-msgid "Container information for %1"
-msgstr "Informatziones de su cuntenidore pro %1"
-
-#: ../libertine/qml/ContainerInfoView.qml:56
-msgid "ID"
-msgstr "Identificadore"
-
-#: ../libertine/qml/ContainerInfoView.qml:64
-msgid "Name"
-msgstr "Nòmine"
-
-#: ../libertine/qml/ContainerInfoView.qml:72
-msgid "Distribution"
-msgstr "Distributzione"
-
-#: ../libertine/qml/ContainerInfoView.qml:80
-msgid "Status"
-msgstr "Istadu"
-
-#: ../libertine/qml/AddExtraArchiveView.qml:27
-msgid "Add Archive"
-msgstr "Agiunghe depòsitu"
-
-#: ../libertine/qml/AddExtraArchiveView.qml:42
-msgid "New archive identifier, e.g."
-msgstr "Identificadore nou de depòsitu, pro esempru"
-
-#: ../libertine/qml/AddExtraArchiveView.qml:50
-msgid ""
-"multiverse\n"
-"ppa:user/repository\n"
-"deb http://myserver/repo stable repo"
-msgstr ""
-"multiverse\n"
-"ppa:user/repository\n"
-"deb http://myserver/repo stable repo"
-
-#: ../libertine/qml/AddExtraArchiveView.qml:73
-msgid "(Optional) Public signing key for archive"
-msgstr "Crae pùblica de firma pro su depòsitu (optzionale)"
-
-#: ../libertine/qml/AddExtraArchiveView.qml:90
-msgid "Add"
-msgstr "Agiunghe"
-
-#: ../libertine/qml/ContainerOptionsDialog.qml:27
-msgid "Container Options"
-msgstr "Optziones de cu cuntenidore"
-
-#: ../libertine/qml/ContainerOptionsDialog.qml:28
-msgid "Configure options for container creation."
-msgstr "Cunfigura optziones de creatzione de su contenidore."
-
-#: ../libertine/qml/ContainerOptionsDialog.qml:49
-msgid "Enter a name for the container or leave blank for default name:"
-msgstr ""
-"Inserta unu nòmine pro su cuntenidore o lassa·ddu bòidu si boles impreare su "
-"nòmine predefinidu:"
-
-#: ../libertine/qml/ContainerOptionsDialog.qml:55
-msgid "container name"
+#: ../tools/libertine-shell:45
+#, fuzzy
+#| msgid "container name"
+msgid "Container username"
 msgstr "nòmine de su cuntenidore"
 
-#: ../libertine/qml/ContainerOptionsDialog.qml:62
+#: ../tools/libertine-shell:47
+msgid "SSH key to be used"
+msgstr ""
+
+#: ../tools/libertine-shell:50
+msgid "Assume yes to all prompts"
+msgstr ""
+
+#: ../tools/libertine-shell:72
+msgid "Identity file not found at '{}'. Leave blank for default."
+msgstr ""
+
+#: ../tools/libertine-shell:78
+msgid "Corresponding public key not found for '{}'."
+msgstr ""
+
+#: ../tools/libertine-shell:111
+msgid "Configured identity file or public key matching '{}' do not exist."
+msgstr ""
+
+#: ../tools/libertine-shell:139
+msgid ""
+"It looks like no SSH keys are set up. Please generate a key and try again. "
+"You can use the following command to generate an appropriate key:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
+msgstr ""
+
+#: ../tools/libertine-shell:160
+msgid ""
+"Always use '{}' as identity file and username '{}' when connecting to '{}'? "
+"[Yn]"
+msgstr ""
+
+#: ../tools/libertine-shell:163
+msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
+msgstr ""
+
+#: ../tools/libertine-shell:165 ../tools/libertine-shell:209
+#: ../tools/libertine-shell:243
+msgid "Y"
+msgstr ""
+
+#: ../tools/libertine-shell:165 ../tools/libertine-shell:209
+#: ../tools/libertine-shell:243
+msgid "y"
+msgstr ""
+
+#: ../tools/libertine-shell:190
+msgid ""
+"No sshd found. You can install openssh with the following command:\n"
+"\tapt install openssh-client"
+msgstr ""
+
+#: ../tools/libertine-shell:197
+msgid ""
+"'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
+"this tool."
+msgstr ""
+
+#: ../tools/libertine-shell:208
+msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
+msgstr ""
+
+#: ../tools/libertine-shell:214
+msgid "Failed to install openssh-server"
+msgstr ""
+
+#: ../tools/libertine-shell:220 ../tools/libertine-shell:227
+msgid "Unable to get IP address for '{}'"
+msgstr ""
+
+#: ../tools/libertine-shell:242
+msgid "OK to add public key '{}' to container '{}'? [Yn]"
+msgstr ""
+
+#: ../tools/libertine-shell:244
+msgid "Public key must be added to container to continue."
+msgstr ""
+
+#: ../tools/libertine-shell:248
+msgid "Failed to add public key to container's authorized keys."
+msgstr ""
+
+#: ../tools/libertine-launch:30
+#, python-brace-format
+msgid "No container with id '{container_id}'"
+msgstr ""
+
+#: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
+#, python-brace-format
+msgid ""
+"Backend for container '{id}' not installed. Install 'python3-libertine-"
+"{type}' and try again."
+msgstr ""
+
+#: ../tools/libertine-container-manager:59
+#, python-brace-format
+msgid "Invalid distro {distro}"
+msgstr ""
+
+#: ../tools/libertine-container-manager:63
+#, python-brace-format
+msgid "Container id '{container_id}' is already used."
+msgstr ""
+
+#: ../tools/libertine-container-manager:66
+#, python-brace-format
+msgid ""
+"Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
+"z0-9+.-]+)."
+msgstr ""
+
+#: ../tools/libertine-container-manager:75
+#, python-brace-format
+msgid ""
+"System kernel does not support {container_type} type containers. Please "
+"either use chroot or omit the -t option."
+msgstr ""
+
+#: ../tools/libertine-container-manager:86
+#, python-brace-format
+msgid ""
+"The container distribution needs to match the host ditribution for chroot "
+"based containers. Please either use '{host_distro}' or omit the -d/--distro "
+"option."
+msgstr ""
+
+#: ../tools/libertine-container-manager:98
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
@@ -450,6 +238,666 @@ msgstr ""
 "Inserta una crae pro s'usuàriu tuo in su cuntenidore Libertine o lassa·dda "
 "bòida:"
 
-#: ../libertine/qml/ContainerOptionsDialog.qml:69
-msgid "password"
-msgstr "crae"
+#: ../tools/libertine-container-manager:116
+#, fuzzy
+#| msgid "Update container"
+msgid "Failed to create container"
+msgstr "Atualiza su cuntenidore"
+
+#: ../tools/libertine-container-manager:123
+#, python-brace-format
+msgid "Failed to create container: '{error}'"
+msgstr ""
+
+#: ../tools/libertine-container-manager:167
+#, python-brace-format
+msgid "{package_name} does not exist."
+msgstr ""
+
+#: ../tools/libertine-container-manager:175
+#, fuzzy, python-brace-format
+#| msgid "The %1 package is already installed."
+msgid "Package '{package_name}' is already installed."
+msgstr "Su pachete %1 est giai installadu."
+
+#: ../tools/libertine-container-manager:183
+#, python-brace-format
+msgid ""
+"Package '{package_name}' failed to install in container '{container_id}'"
+msgstr ""
+
+#: ../tools/libertine-container-manager:220
+#, fuzzy, python-brace-format
+#| msgid "The %1 package is already installed."
+msgid "Package '{package_name}' is not installed."
+msgstr "Su pachete %1 est giai installadu."
+
+#: ../tools/libertine-container-manager:225
+#, python-brace-format
+msgid ""
+"Package '{package_name}' failed to be removed from container '{container_id}'"
+msgstr ""
+
+#: ../tools/libertine-container-manager:240
+#, python-brace-format
+msgid ""
+"Search for '{query_string}' in container '{container_id}' exited with non-"
+"zero status"
+msgstr ""
+
+#: ../tools/libertine-container-manager:299
+#, python-brace-format
+msgid "i386 multiarch support is already {enabled_or_disabled}"
+msgstr ""
+
+#: ../tools/libertine-container-manager:309
+msgid ""
+"Configure archive called with no archive name. See configure --help for "
+"usage."
+msgstr ""
+
+#: ../tools/libertine-container-manager:317
+#, python-brace-format
+msgid "{archive_name} already added in container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:330
+#, python-brace-format
+msgid "{archive_name} is not added in container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:335
+#, python-brace-format
+msgid "{archive_name} was not properly deleted."
+msgstr ""
+
+#: ../tools/libertine-container-manager:340
+msgid ""
+"Configure bind-mounts called without mount path. See configure --help for "
+"usage"
+msgstr ""
+
+#: ../tools/libertine-container-manager:347
+#, python-brace-format
+msgid ""
+"Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
+"{username}."
+msgstr ""
+
+#: ../tools/libertine-container-manager:353
+msgid "/media mounts not currently supported in lxc."
+msgstr ""
+
+#: ../tools/libertine-container-manager:356
+#, python-brace-format
+msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
+msgstr ""
+
+#: ../tools/libertine-container-manager:364
+#, python-brace-format
+msgid "Cannot add mount '{mount_path}', bind-mount already exists."
+msgstr ""
+
+#: ../tools/libertine-container-manager:370
+#, python-brace-format
+msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
+msgstr ""
+
+#: ../tools/libertine-container-manager:380
+msgid ""
+"Container cannot be restarted at this time.  You will need to restart the "
+"container at a later time using the 'restart' subcommand."
+msgstr ""
+
+#: ../tools/libertine-container-manager:387
+msgid "Configuring freeze is only valid on LXC and LXD container types."
+msgstr ""
+
+#: ../tools/libertine-container-manager:393
+msgid "Configure called with no subcommand. See configure --help for usage."
+msgstr ""
+
+#: ../tools/libertine-container-manager:434
+msgid "The restart subcommand is only valid for LXC and LXD type containers."
+msgstr ""
+
+#: ../tools/libertine-container-manager:443
+msgid "Classic X application support for Unity 8"
+msgstr ""
+
+#: ../tools/libertine-container-manager:446
+#, python-brace-format
+msgid "Please do not run '{program_name}' using sudo"
+msgstr ""
+
+#: ../tools/libertine-container-manager:453
+msgid "disables all non-vital output"
+msgstr ""
+
+#: ../tools/libertine-container-manager:456
+msgid "enables debug output"
+msgstr ""
+
+#: ../tools/libertine-container-manager:464
+msgid "Create a new Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:468
+msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
+msgstr ""
+
+#: ../tools/libertine-container-manager:471
+msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
+msgstr ""
+
+#: ../tools/libertine-container-manager:474
+msgid "Ubuntu distro series to create."
+msgstr ""
+
+#: ../tools/libertine-container-manager:477
+#, fuzzy
+#| msgid "container name"
+msgid "User friendly container name."
+msgstr "nòmine de su cuntenidore"
+
+#: ../tools/libertine-container-manager:480
+msgid ""
+"Force the installation of the given valid Ubuntu distro even if it is no "
+"longer supported."
+msgstr ""
+
+#: ../tools/libertine-container-manager:484
+msgid ""
+"Add i386 support to amd64 Libertine containers.  This option has no effect "
+"when the Libertine container is i386."
+msgstr ""
+
+#: ../tools/libertine-container-manager:488
+msgid ""
+"Pass in the user's password when creating an LXC container.  This is "
+"intended for testing only and is very insecure."
+msgstr ""
+
+#: ../tools/libertine-container-manager:495
+msgid "Destroy any existing environment entirely."
+msgstr ""
+
+#: ../tools/libertine-container-manager:498
+#: ../tools/libertine-container-manager:516
+#: ../tools/libertine-container-manager:534
+#: ../tools/libertine-container-manager:550
+#: ../tools/libertine-container-manager:560
+#: ../tools/libertine-container-manager:575
+#: ../tools/libertine-container-manager:589
+#: ../tools/libertine-container-manager:601
+#: ../tools/libertine-container-manager:670
+#: ../tools/libertine-container-manager:683
+msgid "Container identifier.  Default container is used if omitted."
+msgstr ""
+
+#: ../tools/libertine-container-manager:501
+msgid "Force destroy.  Forces running containers to stop before destruction."
+msgstr ""
+
+#: ../tools/libertine-container-manager:507
+msgid "Install a package or packages in the specified Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:512
+msgid ""
+"Name of package or full path to a Debian package. Multiple packages can be "
+"entered, separated by a space. Required."
+msgstr ""
+
+#: ../tools/libertine-container-manager:519
+#: ../tools/libertine-container-manager:537
+msgid "No dialog mode. Use text-based frontend during debconf interactions."
+msgstr ""
+
+#: ../tools/libertine-container-manager:525
+msgid "Remove a package in the specified Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:530
+msgid ""
+"Name of package to remove. Multiple packages can be entered, separated by a "
+"space. Required."
+msgstr ""
+
+#: ../tools/libertine-container-manager:543
+msgid ""
+"Search for packages based on the search string in the specified Libertine "
+"container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:547
+msgid "String to search for in the package cache. Required."
+msgstr ""
+
+#: ../tools/libertine-container-manager:556
+msgid ""
+"Update the packages in the Libertine container.  Also updates the "
+"container's locale and installs necessary language packs if the host's "
+"locale has changed."
+msgstr ""
+
+#: ../tools/libertine-container-manager:566
+msgid "List all Libertine containers."
+msgstr ""
+
+#: ../tools/libertine-container-manager:572
+msgid "List available app launchers in a container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:579
+msgid "use JSON output format."
+msgstr ""
+
+#: ../tools/libertine-container-manager:592
+msgid "The command to run in the specified container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:598
+msgid "Configure various options in the specified Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:602
+#, fuzzy
+#| msgid "i386 multiarch support"
+msgid "Multiarch support"
+msgstr "Suportu i386 multiarchitetura"
+
+#: ../tools/libertine-container-manager:603
+msgid "Enable or disable multiarch support for a container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:607
+msgid ""
+"Enables or disables i386 multiarch support for amd64 Libertine containers. "
+"This option has no effect when the Libertine container is i386."
+msgstr ""
+
+#: ../tools/libertine-container-manager:611
+#, fuzzy
+#| msgid "Additional Archives"
+msgid "Additional archive support"
+msgstr "Depòsitos additzionales"
+
+#: ../tools/libertine-container-manager:612
+#, fuzzy
+#| msgid "Additional archives and PPAs"
+msgid "Add or delete an additional archive (PPA)."
+msgstr "Depòsitos e PPA additzionales"
+
+#: ../tools/libertine-container-manager:616
+msgid "Adds or removes an archive (PPA) in the specified Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:619
+#, fuzzy
+#| msgid "container name"
+msgid "Archive name"
+msgstr "nòmine de su cuntenidore"
+
+#: ../tools/libertine-container-manager:620
+msgid "Archive name to be added or removed."
+msgstr ""
+
+#: ../tools/libertine-container-manager:623
+msgid "Public key file"
+msgstr ""
+
+#: ../tools/libertine-container-manager:624
+msgid ""
+"File containing the key used to sign the given archive. Useful for third-"
+"party or private archives."
+msgstr ""
+
+#: ../tools/libertine-container-manager:627
+#, fuzzy
+#| msgid "Additional Archives"
+msgid "Additional bind-mounts"
+msgstr "Depòsitos additzionales"
+
+#: ../tools/libertine-container-manager:628
+msgid "Add or delete an additional bind-mount."
+msgstr ""
+
+#: ../tools/libertine-container-manager:632
+msgid "Adds or removes a bind-mount in the specified Libertine container."
+msgstr ""
+
+#: ../tools/libertine-container-manager:635
+msgid "Mount path"
+msgstr ""
+
+#: ../tools/libertine-container-manager:636
+msgid "The absolute host path to bind-mount."
+msgstr ""
+
+#: ../tools/libertine-container-manager:638
+#, fuzzy
+#| msgid "Delete Container"
+msgid "Freeze container support"
+msgstr "Cantzella su cuntenidore"
+
+#: ../tools/libertine-container-manager:639
+msgid "Enable or disable freezing LXC/LXD containers when not in use."
+msgstr ""
+
+#: ../tools/libertine-container-manager:643
+msgid ""
+"Enables or disables freezing of LXC/LXD containers when not in use. When "
+"disabled, the container will stop."
+msgstr ""
+
+#: ../tools/libertine-container-manager:666
+#, fuzzy
+#| msgid "Default container"
+msgid "Set the default container."
+msgstr "Cuntenidore predefinidu"
+
+#: ../tools/libertine-container-manager:669
+#, fuzzy
+#| msgid "Container Info"
+msgid "Container id"
+msgstr "Informatziones de su cuntenidore"
+
+#: ../tools/libertine-container-manager:673
+#, fuzzy
+#| msgid "Default container"
+msgid "Clear the default container."
+msgstr "Cuntenidore predefinidu"
+
+#: ../tools/libertine-container-manager:679
+msgid ""
+"Restart a frozen Libertine container.  This only works on LXC and LXD type "
+"containers."
+msgstr ""
+
+#~ msgid "new"
+#~ msgstr "nou"
+
+#~ msgid "installing"
+#~ msgstr "installende"
+
+#~ msgid "ready"
+#~ msgstr "prontu"
+
+#~ msgid "updating"
+#~ msgstr "atualizende"
+
+#~ msgid "removing"
+#~ msgstr "cantzellende"
+
+#~ msgid "removed"
+#~ msgstr "cantzelladu"
+
+#~ msgid "failed"
+#~ msgstr "faddidu"
+
+#~ msgid "installed"
+#~ msgstr "installadu"
+
+#~ msgid "%1 failed to start"
+#~ msgstr "faddina aviende %1"
+
+#~ msgid "Installation of package %1 failed"
+#~ msgstr "Faddina in s'installatzione de su pachete %1"
+
+#~ msgid "Removal of package %1 failed"
+#~ msgstr "Faddina eliminende su pachete %1"
+
+#~ msgid "Searching for query %1 failed"
+#~ msgstr "Faddina in sa chirca de %1"
+
+#~ msgid "Updating container %1 failed"
+#~ msgstr "Faddina in s'atualizatzione de su cuntenidore %1"
+
+#~ msgid "Creating container %1 failed"
+#~ msgstr "Faddina in sa creatzione de su cuntenidore %1"
+
+#~ msgid "Destroying container %1 failed"
+#~ msgstr "Faddina in sa distrutzione de su cuntenidore %1"
+
+#~ msgid "Running command %1 failed"
+#~ msgstr "Faddina in s'esecutzione de s'òrdine %1"
+
+#~ msgid "Attempt to configure container %1 failed"
+#~ msgstr "Faddina in su tentativu de cunfiguratzione de su cuntenidore %1"
+
+#~ msgid "Attempt to set container as default failed"
+#~ msgstr ""
+#~ "Faddina in su tentativu de cunfigurare su cuntenidore comente predefinidu"
+
+#~ msgid "Search again or return to search results."
+#~ msgstr "Torra a chircare o torra a is resurtados de chirca."
+
+#~ msgid "Search again"
+#~ msgstr "Torra a chircare"
+
+#~ msgid "Return to search results"
+#~ msgstr "Torra a is resurtados de chirca"
+
+#~ msgid "My Containers"
+#~ msgstr "Cuntenidores mios"
+
+#~ msgid "delete"
+#~ msgstr "cantzella"
+
+#~ msgid "info"
+#~ msgstr "informatziones"
+
+#~ msgid "edit"
+#~ msgstr "modìfica"
+
+#~ msgid "Container Apps"
+#~ msgstr "Aplicatziones de su cuntenidore"
+
+#~ msgid "Search for packages"
+#~ msgstr "Chirca pachetes"
+
+#~ msgid "Search archives for packages"
+#~ msgstr "Chirca pachetes in su depòsitu"
+
+#~ msgid "search"
+#~ msgstr "chirca"
+
+#~ msgid "OK"
+#~ msgstr "AB"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Information for the %1 package"
+#~ msgstr "Informatziones de su pachete %1"
+
+#~ msgid "Obtaining package version…"
+#~ msgstr "Otenende sa versione de su pachete…"
+
+#~ msgid "Package version"
+#~ msgstr "Versione de su pachete"
+
+#~ msgid "Install status"
+#~ msgstr "Istadu de s'installatzione"
+
+#~ msgid "Operation details"
+#~ msgstr "Detàllios de s'operatzione"
+
+#~ msgid "Unknown"
+#~ msgstr "Disconnotu"
+
+#~ msgid "Package Search Results"
+#~ msgstr "Resurtados de sa chirca de pachetes"
+
+#~ msgid "Search"
+#~ msgstr "Chirca"
+
+#~ msgid "No Search Results Found"
+#~ msgstr "Perunu resurtadu agatadu"
+
+#~ msgid "Search Again"
+#~ msgstr "Torra a chircare"
+
+#~ msgid "Return to Apps Page"
+#~ msgstr "Torra a sa pàgina de aplicatziones"
+
+#~ msgid "Searching for packages…"
+#~ msgstr "Chirchende pachetes…"
+
+#~ msgid "Install Package"
+#~ msgstr "Installa su pachete"
+
+#~ msgid "Manage %1"
+#~ msgstr "Gesti %1"
+
+#~ msgid "Update…"
+#~ msgstr "Atualiza…"
+
+#~ msgid "Available Debian Packages to Install"
+#~ msgstr "Pachetes de Debian a disponimentu pro s'installatzione"
+
+#~ msgid "No Debian packages available"
+#~ msgstr "Perunu pachete de Debian a disponimentu"
+
+#~ msgid "Classic Apps - %1"
+#~ msgstr "Aplicatziones clàssicas - %1"
+
+#~ msgid "Install new package"
+#~ msgstr "Installa unu pachete nou"
+
+#~ msgid "Enter exact package name or full path to a Debian package file"
+#~ msgstr ""
+#~ "Inserta su nòmine esatu de su pachete o su percursu cumpletu de "
+#~ "un'archìviu de pachete de Debian"
+
+#~ msgid "Package name or Debian package path"
+#~ msgstr ""
+#~ "Nòmine de su pachete o percursu de s'archìviu de su pachete de Debian"
+
+#~ msgid ""
+#~ "The %1 package is already installed. Please try a different package name."
+#~ msgstr ""
+#~ "Su pachete %1 est giai installadu. Proa cun unu nòmine de pachete "
+#~ "diferente."
+
+#~ msgid "Manage Container"
+#~ msgstr "Gesti cuntenidore"
+
+#~ msgid "Container Information"
+#~ msgstr "Informatziones de su cuntenidore"
+
+#~ msgid "Switch Container"
+#~ msgstr "Cola su cuntenidore"
+
+#~ msgid "Enter package name or Debian file"
+#~ msgstr "Inserta nòmine de unu pachete o un'archìviu de Debian"
+
+#~ msgid "Choose Debian package to install"
+#~ msgstr "Sèbera unu pachete de Debian pro installare"
+
+#~ msgid "Search archives for a package"
+#~ msgstr "Chirca unu pachete in is depòsitos"
+
+#~ msgid "Remove Package"
+#~ msgstr "Boga su pachete"
+
+#~ msgid "Package Info"
+#~ msgstr "Informatziones de su pachete"
+
+#~ msgid "No packages are installed"
+#~ msgstr "Perunu pachete installadu"
+
+#~ msgid "add"
+#~ msgstr "agiunghe"
+
+#~ msgid "Add a new archive"
+#~ msgstr "Agiunghe unu depòsitu nou"
+
+#~ msgid "remove"
+#~ msgstr "boga"
+
+#~ msgid "Remove extra archive"
+#~ msgstr "Boga s'archìviu extra"
+
+#~ msgid "No additional archives and PPA's have been added"
+#~ msgstr "Perunu archìviu additzionale o PPA agiuntu"
+
+#~ msgid "Deleting archive failed"
+#~ msgstr "Faddina in s'eliminatzione de su depòsitu"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "Còpia in punta de billete"
+
+#~ msgid "Dismiss"
+#~ msgstr "Iscarta"
+
+#~ msgid "Welcome"
+#~ msgstr "Ti donamus su benebènnidu"
+
+#~ msgid "Welcome to the Ubuntu Legacy Application Support Manager."
+#~ msgstr ""
+#~ "Ti donamus su benebènnidu a su gestore de suportu pro aplicatziones "
+#~ "eredadas de Ubuntu."
+
+#~ msgid ""
+#~ "You do not have Legacy Application Support configured at this time.  "
+#~ "Downloading and setting up the required environment takes some time and "
+#~ "network bandwidth."
+#~ msgstr ""
+#~ "Non as cunfiguradu su suportu pro aplicatziones eredadas de Ubuntu. "
+#~ "S'iscarrigamentu e sa cunfiguratzione de s'ambiente netzessàriu rechedet "
+#~ "carchi tempus e banda."
+
+#~ msgid "Install"
+#~ msgstr "Installa"
+
+#~ msgid "Container information for %1"
+#~ msgstr "Informatziones de su cuntenidore pro %1"
+
+#~ msgid "ID"
+#~ msgstr "Identificadore"
+
+#~ msgid "Name"
+#~ msgstr "Nòmine"
+
+#~ msgid "Distribution"
+#~ msgstr "Distributzione"
+
+#~ msgid "Status"
+#~ msgstr "Istadu"
+
+#~ msgid "Add Archive"
+#~ msgstr "Agiunghe depòsitu"
+
+#~ msgid "New archive identifier, e.g."
+#~ msgstr "Identificadore nou de depòsitu, pro esempru"
+
+#~ msgid ""
+#~ "multiverse\n"
+#~ "ppa:user/repository\n"
+#~ "deb http://myserver/repo stable repo"
+#~ msgstr ""
+#~ "multiverse\n"
+#~ "ppa:user/repository\n"
+#~ "deb http://myserver/repo stable repo"
+
+#~ msgid "(Optional) Public signing key for archive"
+#~ msgstr "Crae pùblica de firma pro su depòsitu (optzionale)"
+
+#~ msgid "Add"
+#~ msgstr "Agiunghe"
+
+#~ msgid "Container Options"
+#~ msgstr "Optziones de cu cuntenidore"
+
+#~ msgid "Configure options for container creation."
+#~ msgstr "Cunfigura optziones de creatzione de su contenidore."
+
+#~ msgid "Enter a name for the container or leave blank for default name:"
+#~ msgstr ""
+#~ "Inserta unu nòmine pro su cuntenidore o lassa·ddu bòidu si boles impreare "
+#~ "su nòmine predefinidu:"
+
+#~ msgid "password"
+#~ msgstr "crae"
