@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2020-02-23 08:21+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "libertine/cs/>\n"
@@ -22,41 +22,42 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "Neplatná aplikace z kontejneru  '{application_name}' ."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "Použití AptCache není zatím v prostředí snap podporováno"
 
 #: ../python/libertine/launcher/session.py:103
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "blízko detekováno na {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "spouštím {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD doručen"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "spuštěný program byl ukončen"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT doručen"
 
 #: ../python/libertine/launcher/session.py:337
+#, fuzzy
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "přerušení klávesnice"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERM doručen"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
