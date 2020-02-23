@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-23 08:21+0000\n"
+"PO-Revision-Date: 2020-02-24 17:55+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "libertine/cs/>\n"
@@ -29,9 +29,9 @@ msgid "Using AptCache not currently supported in snap environment"
 msgstr "Použití AptCache není zatím v prostředí snap podporováno"
 
 #: ../python/libertine/launcher/session.py:103
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "close detected on {socket}"
-msgstr "blízko detekováno na {socket}"
+msgstr "uzavřít detekovaný {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
@@ -51,7 +51,6 @@ msgid "SIGINT received"
 msgstr "SIGINT doručen"
 
 #: ../python/libertine/launcher/session.py:337
-#, fuzzy
 msgid "keyboard interrupt"
 msgstr "přerušení klávesnice"
 
@@ -61,68 +60,68 @@ msgstr "SIGTERM doručen"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "ukončit"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "přijat neznámý signál {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Spusťte aplikaci nativně nebo v Libertine kontejneru"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "Identifikátor kontejneru při spouštění kontejnerových aplikací"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Nastavte proměnnou prostředí"
 
 #: ../python/libertine/launcher/config.py:138
+#, fuzzy
 msgid "exec line"
-msgstr ""
+msgstr "spouštěcí řádek"
 
 #: ../python/libertine/launcher/config.py:142
+#, fuzzy
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Musíte zadat spouštěcí řádek"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Spusťte relaci SSH v kontejneru Libertine lxc / lxd"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Info o containeru"
+msgstr "Identifikátor kontejneru"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "název kontejneru"
+msgstr "Uživatelské jméno kontejneru"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "Použít klíč SSH"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Předpokládejte ano všem výzvám"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"Identifikační soubor nebyl nalezen v '{}'.  Jako výchozí ponechte prázdné."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "Odpovídající veřejný klíč nebyl nalezen pro '{}'."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Konfigurovaný soubor identity nebo veřejný klíč odpovídající '{}' neexistují."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -130,67 +129,81 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Vypadá to, že nejsou nastaveny žádné klíče SSH.  Vygenerujte klíč a zkuste "
+"to znovu.  K vygenerování příslušného klíče můžete použít následující příkaz:"
+"\n"
+" ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Pro připojení k '{}' vždy použít '{}' jako soubor identity a uživatelské "
+"jméno '{}'?  [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Pro připojení k '{}' vždy použít '{}' jako soubor identity?  [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
+#, fuzzy
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
+#, fuzzy
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"Nebyl nalezen žádný sshd.  Můžete ho nainstalovat openssh pomocí "
+"následujícího příkazu:\n"
+" apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' je kontejner '{}'.  Tento nástroj mohou používat pouze kontejnery „lxd“ "
+"nebo „lxc“."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"server openssh nebyl detekován v kontejneru '{}'.  Nainstalovat nyní?  [Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Instalace serveru openssh se nezdařila"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Nelze získat adresu IP pro '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "OK, chcete-li přidat veřejný klíč '{}' do kontejneru '{}'?  [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Chcete-li pokračovat, musíte do kontejneru přidat veřejný klíč."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
-msgstr ""
+msgstr "Nepodařilo se přidat veřejný klíč kontejneru mezi autorizované klíče."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Žádný kontejner s ID '{container_id}'"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -198,16 +211,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Backend pro kontejner '{id}' není nainstalován.  Nainstalujte "
+"'python3-libertine- {type}' a zkuste to znovu."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Neplatné distro {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "ID kontejneru '{container_id}' je již použito."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -215,6 +230,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"ID kontejneru '{container_id}' je neplatné.  ID musí mít formu ([a-z0-9] "
+"[a-z0-9 + .-] +)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -222,6 +239,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Systémové jádro nepodporuje kontejnery typu {container_type}. Použijte "
+"prosím chroot nebo vynechejte volbu -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -230,6 +249,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"Distribuce kontejneru musí odpovídat distribuci hostitele pro kontejnery na "
+"bázi chroot.  Použijte prosím '{host distro}' nebo vynechejte volbu -d/"
+"––distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -240,44 +262,43 @@ msgstr ""
 "bez hesla:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Aktualizovat kontejner"
+msgstr "Nepodařilo se vytvořit kontejner"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Nepodařilo se vytvořit kontejner: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} neexistuje."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "Balíček %1 je již instalován."
+msgstr "Balíček '{package_name}' je již nainstalován."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Balíček '{package_name}' se nepodařilo nainstalovat do kontejneru "
+"'{container_id}'"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "Balíček %1 je již instalován."
+msgstr "Balíček '{package_name}' není nainstalován."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Balíček '{package_name}' se nepodařilo odebrat z kontejneru '{container_id}'"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -285,38 +306,44 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"Hledání '{query_string}' v kontejneru '{container_id}' bylo ukončeno s "
+"nenulovým stavem"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "Podpora multiarch i386 je již {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
+"Nakonfigurujte archiv s názvem bez názvu archivu.  Viz Konfigurace --help "
+"pro použití."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} již bylo přidáno do kontejneru."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} nebyl přidán do kontejneru."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} nebyl řádně smazán."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"Nakonfigurujte vazby typu mount-mount nazvané bez cesty pro připojení.  Viz "
+"konfigurace --help pro použití"
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -324,104 +351,118 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"Nelze připojit {mount_path}, cesta pro připojení musí být v {home_dir} nebo /"
+"media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/media mount není aktuálně podporována v lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Nelze připojit '{mount_path}', cesta pro připojení musí být existující "
+"adresář."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr ""
+msgstr "Nelze přidat mount '{mount_path}', bind-mount již existuje."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "Nelze odebrat připojení '{mount_path}', bind-mount neexistuje."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"V tuto chvíli nelze kontejner restartovat.  Budete muset restartovat "
+"kontejner později pomocí dílčího příkazu 'restartovat'."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
-msgstr ""
+msgstr "Konfigurace zmrazení platí pouze pro typy kontejnerů LXC a LXD."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"Konfigurovat volání bez dílčích příkazů.  Viz konfigurace --help pro použití."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
 msgstr ""
+"Dílčí příkaz restartování je platný pouze pro kontejnery typu LXC a LXD."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Podpora aplikací Classic X pro Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "Nespouštějte „{program_name}“ pomocí sudo"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "zakáže veškerý neživotně důležitý výstup"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "povoluje ‘debug‘ výstup"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Vytvořte nový Libertine kontejner."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
 msgstr ""
+"Identifikátor kontejneru ve formátu ([a-z0-9] [a-z0-9 + .-] +). Požadováno."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
 msgstr ""
+"Typ kontejneru Libertine, který chcete vytvořit.  Buď 'lxd', 'lxc' nebo "
+"'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Vytvořit verzi distribuce Ubuntu."
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "název kontejneru"
+msgstr "Uživatelsky přívětivý název kontejneru."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Vynutit instalaci dané platné distribuce Ubuntu, i když již není podporována."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Přidejte podporu i386 do kontejnerů libertine amd64.  Tato volba nemá žádný "
+"účinek, pokud je Libertine kontejnerem i386."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Při vytváření kontejneru LXC předejte heslo uživatele.  Určeno pouze pro "
+"testování a je velmi nezabezpečené."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Zcela smazat existující prostředí."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -435,45 +476,53 @@ msgstr ""
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
 msgstr ""
+"Identifikátor kontejneru.  Pokud není použit, použije se výchozí kontejner."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
-msgstr ""
+msgstr "Vynutit smazání.  Vynutit ukončení procesů kontejnerů před smazáním."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
-msgstr ""
+msgstr "Nainstalujte balíček nebo balíčky do určeného kontejneru Libertine."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"Název balíčku nebo úplná cesta k balíčku Debian.  Lze zadat více balíčků "
+"oddělených mezerou.  Požadováno."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Žádný dialogový režim.  Během interakcí debconf použijte textové rozhraní."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Odstraňte balíček z určeného kontejneru Libertine."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"Název balíčku, který má být odebrán.  Lze zadat více balíčků oddělených "
+"mezerou.  Požadováno."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Vyhledejte balíčky na základě vyhledávacího řetězce v určeném kontejneru "
+"Libertine."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Řetězec hledat v mezipaměti balíčku.  Požadováno."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -481,78 +530,78 @@ msgid ""
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Aktualizujte balíčky v kontejneru Libertine.  Aktualizuje také národní "
+"prostředí kontejneru a nainstaluje potřebné jazykové balíčky, pokud se "
+"národní prostředí hostitele změnilo."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "Seznam všech Libertinových kontejnerů."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "Seznam dostupných spouštěčů aplikací v kontejneru."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "použijte výstupní formát JSON."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "Příkaz, který se má spustit v určeném kontejneru."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Nakonfigurujte různé možnosti v určeném kontejneru Libertine."
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "i386 multiarch kompatibilita"
+msgstr "Více architekturová podpora"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "Povolit nebo zakázat podporu více  architektur pro kontejner."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
 msgstr ""
+"Aktivuje nebo deaktivuje podporu více architektur i386 pro kontejnery "
+"Libertine amd64.  Tato volba nemá žádný účinek, pokud je Libertine "
+"kontejnerem i386."
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Dodatečné složky"
+msgstr "Další podpora archivu"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Dodatečmé složky a PPAs"
+msgstr "Přidat nebo odstranit další archiv (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
-msgstr ""
+msgstr "Přidá nebo odebere archiv (PPA) v určeném kontejneru Libertine."
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "název kontejneru"
+msgstr "Název archivu"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "Název archivu, který chcete přidat nebo odebrat."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Soubor s veřejným klíčem"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"Soubor obsahující klíč použitý k podepsání daného archivu.  Užitečné pro "
+"archivy třetích stran nebo soukromé archivy."
 
 #: ../tools/libertine-container-manager:627
 #, fuzzy
