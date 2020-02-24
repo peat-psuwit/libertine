@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-23 08:21+0000\n"
+"PO-Revision-Date: 2020-02-24 17:55+0000\n"
 "Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "libertine/ru/>\n"
@@ -168,6 +168,7 @@ msgstr ""
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"openssh-server не найден в контейнере '{}'. Установить его сейчас? [Да/нет]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
@@ -179,15 +180,16 @@ msgstr "Не удалось получить IP-адрес для '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Добавить публичный ключ '{}' в контейнер '{}'? [Да\\нет]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Для продолжения нужно добавить в контейнер публичный ключ."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Не удалось добавить публичный ключ к списку авторизованных ключей контейнера."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
