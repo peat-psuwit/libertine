@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-24 17:55+0000\n"
+"PO-Revision-Date: 2020-02-29 06:49+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "libertine/cs/>\n"
@@ -80,14 +80,12 @@ msgid "Set an environment variable"
 msgstr "Nastavte proměnnou prostředí"
 
 #: ../python/libertine/launcher/config.py:138
-#, fuzzy
 msgid "exec line"
 msgstr "spouštěcí řádek"
 
 #: ../python/libertine/launcher/config.py:142
-#, fuzzy
 msgid "Must specify an exec line"
-msgstr "Musíte zadat spouštěcí řádek"
+msgstr "Je třeba zadat spouštěcí řádek"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
@@ -148,13 +146,11 @@ msgstr "Pro připojení k '{}' vždy použít '{}' jako soubor identity?  [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
-#, fuzzy
 msgid "Y"
 msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
-#, fuzzy
 msgid "y"
 msgstr "y"
 
@@ -250,8 +246,8 @@ msgid ""
 "option."
 msgstr ""
 "Distribuce kontejneru musí odpovídat distribuci hostitele pro kontejnery na "
-"bázi chroot.  Použijte prosím '{host distro}' nebo vynechejte volbu -d/"
-"––distro."
+"bázi chroot.  Použijte prosím '{host_distro}' nebo vynechejte volbu -d/--"
+"distro option."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -604,66 +600,61 @@ msgstr ""
 "archivy třetích stran nebo soukromé archivy."
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Dodatečné složky"
+msgstr "Dodatečné bind-mounts složky"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Přidat nebo odstranit dodatečné bind-mounts složky."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
-msgstr ""
+msgstr "Přidá nebo odebere bind-mount složky v určeném kontejneru Libertine."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Cesta ke svazku"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Absolutní hostitelská cesta k bind-mount složce."
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Odstranit container"
+msgstr "Zmrazit podporu kontejneru"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
 msgstr ""
+"Povolit nebo zakázat zmrazení kontejnerů LXC / LXD, pokud se nepoužívají."
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Povolí nebo zakáže zmrazení kontejnerů LXC / LXD, pokud se nepoužívají.  "
+"Pokud je zakázáno, kontejner se zastaví."
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Přednastavený kontejner"
+msgstr "Nastavit výchozí kontejner."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Info o containeru"
+msgstr "ID kontejneru"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Přednastavený kontejner"
+msgstr "Zrušit výchozí kontejner."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Restartujte zmrazený Libertine kontejner.  Funguje pouze na kontejnerech "
+"typu LXC a LXD."
 
 #~ msgid "new"
 #~ msgstr "nový"
