@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2020-03-01 20:22+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "libertine/pt/>\n"
@@ -93,16 +93,12 @@ msgid "Launch an SSH session within a lxc/lxd Libertine container"
 msgstr ""
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Informação sobre o recipiente"
+msgstr "Identificador do contentor"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "nome do recipiente"
+msgstr "Nome do contentor"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
@@ -130,67 +126,78 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Parece que não existe nenhuma chave SSH definida. Por favor crie a chave e "
+"tente novamente. Pode utilizar o seguinte comando para gerar a chave:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Use sempre '{}' como identificador de ficheiro e nome de utilizador '{}' "
+"quando está a ligar a '{}'?[Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
 msgstr ""
+"Use sempre '{}' como identificador de ficheiro quando ligar a '{}'? [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "S"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "s"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"Sem sshd encontrado. Pode instalar o openssh com o seguinte comando:\n"
+"\tapt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' é um '{}' contentor. Apenas contentores 'lxd' ou 'lxc' são capazes de "
+"usar esta ferramenta."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
-msgstr ""
+msgstr "openssh-server não foi detetado no contentor '{}'. Instalar agora? [Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Falha ao instalar o openssh-server"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Não foi possível obter o endereço IP para '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "OK para adicionar a chave pública '{}' ao contentor '{}'? [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "A chave pública deve ser adicionar ao contentor para continuar."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Falha ao adicionar a chave pública às chaves autorizadas dos contentores."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Sem contentor com id '{container_id}'"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -240,26 +247,23 @@ msgstr ""
 "deixe em branco para sem palavra-passe:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Atualizar recipiente"
+msgstr "Falha ao criar o contentor"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Falha ao criar o contetor: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} não existe."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "O pacote %1 já está instalado."
+msgstr "O pacote '{package_name}' já está instalado."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
@@ -268,10 +272,9 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "O pacote %1 já está instalado."
+msgstr "O pacote '{package_name}' não está instalado."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
@@ -396,10 +399,8 @@ msgid "Ubuntu distro series to create."
 msgstr ""
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "nome do recipiente"
+msgstr "Nome de contentor amigável."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
@@ -503,10 +504,8 @@ msgid "Configure various options in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "suporta i386 multiarch"
+msgstr "Suporta multiarch"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
@@ -519,26 +518,20 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Arquivos adicionais"
+msgstr "Suporte de arquivos adicionais"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Arquivos adicionais e PPAs"
+msgstr "Adicionar ou eliminar arquivos adicionais (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "nome do recipiente"
+msgstr "Nome do arquivo"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
