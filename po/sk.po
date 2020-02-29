@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-16 19:18+0000\n"
+"PO-Revision-Date: 2020-02-29 11:21+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "libertine/sk/>\n"
@@ -22,50 +22,50 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "Neplatná aplikácia z kontajneru '{application_name}' ."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "Použitie AptCache nie je v prostredí snap podporované"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "uzavrieť detekovaný {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "spúšťam {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD doručený"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "spustený program bol ukončený"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT doručený"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "prerušenie klávesnice"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERM doručený"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "ukončiť"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "prijatý neznámy signál {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
