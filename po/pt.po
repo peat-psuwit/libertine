@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-01 20:22+0000\n"
+"PO-Revision-Date: 2020-03-02 22:10+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "libertine/pt/>\n"
@@ -23,11 +23,11 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "O contentor da app '{application_name}' não é válido."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "O uso do AptCache não é atualmente suportado no ambiente snap"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD recebido"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
@@ -61,12 +61,12 @@ msgstr ""
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "terminar"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "sinal desconhecido {signal} recebido"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
@@ -548,10 +548,8 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Arquivos adicionais"
+msgstr "Montagens de ligação adicionais"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
@@ -570,10 +568,8 @@ msgid "The absolute host path to bind-mount."
 msgstr ""
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Eliminar recipiente"
+msgstr "Congelar o suporte ao contentor"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
@@ -586,22 +582,16 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Recipiente por omissão"
+msgstr "Definir o contentor por defeito."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Informação sobre o recipiente"
+msgstr "ID do contentor"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Recipiente por omissão"
+msgstr "Limpar o contentor por omissão."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
