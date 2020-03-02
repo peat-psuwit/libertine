@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-12-22 01:00+0000\n"
-"Last-Translator: Dmitriy Pushkov <ezze@ezze.org>\n"
+"PO-Revision-Date: 2020-02-24 17:55+0000\n"
+"Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "libertine/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-03-19 06:49+0000\n"
 
@@ -100,10 +100,8 @@ msgid "Container identifier"
 msgstr "Информация о контейнере"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "название контейнера"
+msgstr "Название контейнера"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
@@ -153,10 +151,13 @@ msgid "y"
 msgstr ""
 
 #: ../tools/libertine-shell:190
+#, fuzzy
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"Не найден sshd. Вы можете установить openssh с помощью команды:\n"
+"apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
@@ -167,26 +168,28 @@ msgstr ""
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"openssh-server не найден в контейнере '{}'. Установить его сейчас? [Да/нет]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Не удалось установить openssh-server"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Не удалось получить IP-адрес для '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Добавить публичный ключ '{}' в контейнер '{}'? [Да\\нет]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Для продолжения нужно добавить в контейнер публичный ключ."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Не удалось добавить публичный ключ к списку авторизованных ключей контейнера."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
