@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-06-20 02:04+0000\n"
+"PO-Revision-Date: 2020-03-01 20:22+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "libertine/ca/>\n"
@@ -17,112 +17,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-03-19 06:49+0000\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "L'app contenidor «{application_name}» no és vàlida."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "L'ús de l'AptCache a un entorn «snap» encara no està suportat"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "tanca el detectat a {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "s'està llençant {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "s'ha rebut SIGCHLD"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "el programa engegat ha acabat"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "s'ha rebut SIGINT"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "interrupció de teclat"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "s'ha rebut SIGTERM"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "acaba"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "s'ha rebut un senyal desconegut: {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Engegueu una aplicació de forma nativa o a un contenidor Libertine"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "Identificador del contenidor quan s'han engegat les apps contingudes"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Assigna una variable d'entorn"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "línia exec"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "S'ha d'especificar una línia exec"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Engega una sessió SSH al contenidor Libertine lxc/lxd"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Info del contenidor"
+msgstr "Identificador del contenidor"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "nom del contenidor"
+msgstr "Nom d'usuari del contenidor"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "clau SSH a usar"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Respon «sí» a totes les preguntes"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"Identifica un fitxer no trobar a «{}». Deixeu-ho buit per usar el per "
+"defecte."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "No s'ha trobat la clau pública corresponent per «{}»."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"El fitxer d'identitat configurat o la clau pública coincident «{}» no "
+"existeix."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -130,67 +130,78 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Sembla que no hi ha cap clau SSH configurada. Genereu-ne una i torneu-ho a "
+"provar. Podeu utilitzar la següent comanda per generar una clau adequada:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'el_vostre_email@exemple.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Voleu usar sempre «{}» com a fitxer d'identificació i usuari «{}» al "
+"connectar a «{}»? [Sn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Voleu usar «{}» com identificador en connectar a «{}»? [Sn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "S"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "s"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"No s'ha trobat el sshd. Podeu instal·lar openssh amb la següent comanda:\n"
+"\tapt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"«{}» és un contenidor «{}». Només els contenidors «lxd» i «lxc» poden usar "
+"aquesta eina."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"no s'ha detectat l'openssh-server al contenidor «{}». Voleu instal·lar-ho "
+"ara? [Sn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "La instal·lació de l'openssh-server ha fallat"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "No s'ha pogut obtindre l'adreça IP per «{}»"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Voleu afegir la clau pública «{}» al contenidor «{}»? [Sn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "S'ha d'afegir la clau pública al contenidor per continuar."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
-msgstr ""
+msgstr "No s'ha pogut afegir la clau pública a les autoritzades del contenidor."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "No hi ha cap contenidor amb l'identificador «{container_id}»"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -198,16 +209,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"El backend del contenidor «{id}» no està instal·lat. Instal·leu "
+"«'python3-libertine-{type}» i torneu-ho a provar."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "La distribució {distro} no és vàlida"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "L'identificador de contenidor «{container_id}» ja està en ús."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -215,6 +228,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"L'identificador de contenidor «{container_id}» no és vàlid. Ha d'estar "
+"format per ([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -222,6 +237,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"El nucli del sistema no té suport pels contenidors de tipus {container_type}"
+". Useu chroot o omitiu l'opció -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -230,6 +247,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"La distribució del contenidor ha de coincidir amb la de l'amfitrió per als "
+"contenidors basats en chroot. Utilitzeu «{host_distro}» o omitiu les opcions "
+"-d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -240,44 +260,44 @@ msgstr ""
 "ho en blanc:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Actualitza el contenidor"
+msgstr "La creació del contenidor ha fallat"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "La creació del contenidor ha fallat: «{error}»"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} no exiteix."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "El paquet %1 ja està instal·lat."
+msgstr "El paquet «{package_name}» ja està instal·lat."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"La instal·lació del paquet «{package_name}» al contenidor «{container_id}» "
+"ha fallat"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "El paquet %1 ja està instal·lat."
+msgstr "El paquet «{package_name}» no està instal·lat."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"L'eliminació del paquet «{package_name}» al contenidor «{container_id}» ha "
+"fallat"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -285,38 +305,44 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"La cerca «{query_string}» al contenidor «{container_id}» ha acabat amb un "
+"estat no zero"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "El suport multiarquitectura i386 ja està {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
+"S'ha cridat configure de l'arxiu sense nom d'arxiu. Consulteu configure --"
+"help per com utilitzar-ho."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "Ja s'ha afegit {archive_name} al contenidor."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "No s'ha afegit {archive_name} al contenidor."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "No s'ha eliminar correctament {archive_name}."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"S'ha cridat configure del muntatge lligat sense ruta de muntatge. Consulteu "
+"configure --help per com utilitzar-ho"
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -324,104 +350,121 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"No s'ha pogut muntar {mount_path}. El punt de muntatge ha de ser dins "
+"{home_dir} o /media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "Els muntatges /media encara no tenen suport a lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"No es pot muntar «{mount_path}», la ruta de muntatge ha de ser a un "
+"directori existent."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
 msgstr ""
+"No es pot afegir el muntatge «{mount_path}», el muntatge lligat ja existeix."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
 msgstr ""
+"No es pot eliminar el untatge «{mount_path}», el muntatge lligat no existeix."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"No es pot reiniciar el contenidor en aquest moment. Haureu de reiniciar el "
+"contenidor més endavant mitjançant la subcomanda «reiniciar»."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
 msgstr ""
+"La configuració congela només és vàlida pels tipus de contenidors lxc i lxd."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"S'ha cridat a configure sense cap subcomanda. Vegeu configure --help per "
+"saber com usar-ho."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
 msgstr ""
+"La subcomanda «restart» només és vàlida pels contenidors de tipus lxc i lxd."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Suport d'aplicacions X clàssic per l'Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "No useu «{program_name}» amb sudo"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "deshabilita totes les sortides no vitals"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "habilita les sortides de depuració"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Crea un contenidor Libertine nou."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
 msgstr ""
+"Identificador del contenidor format per  ([a-z0-9][a-z0-9+.-]+). Obligatori."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
-msgstr ""
+msgstr "Tipus de contenidor Libertine a crear. Pot ser «lxd», «lxc» o «chroot»."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Distribució Ubuntu a crear."
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "nom del contenidor"
+msgstr "Nom fàcil de recordar del contenidor."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Força la instal·lació de la distribució Ubuntu vàlida indicada, encara que "
+"ja no tengui suport."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Afegeix suport i386 als contenidors Libertine amd64. Aquesta opció no tendrà "
+"cap efecte si el contenidor Libertine ja és i386."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Passa la contrasenya d’usuari en crear un contenidor lxc. Això està pensat "
+"només per proves. És molt insegur."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Destrueix completament qualsevol entorn existent."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -434,46 +477,55 @@ msgstr ""
 #: ../tools/libertine-container-manager:670
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
-msgstr ""
+msgstr "Identificador de contenidor. S'usarà el per defecte si s'omet."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
 msgstr ""
+"Força la destrucció.  Força els contenidors a aturar-se abans de ser "
+"destruïts."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
-msgstr ""
+msgstr "Instal·la el o els paquets al contenidor Libertine especificat."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"Nom del paquet o camí d'accés complet a un paquet Debian. Es poden introduir "
+"diversos paquets separats per un espai. Obligatori."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Sense diàlegs. Fes servir frontend de text durant les interaccions debconf."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Elimina un paquet al contenidor Libertine especificat."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"Nom del paquet a eliminar. Es poden introduir diversos paquets separats per "
+"un espai. Obligatori."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Cerca els paquets basats en el text de cerca al contenidor Libertine "
+"especificat."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Text a cercar a la memòria cau de paquets. Obligatori."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -481,140 +533,137 @@ msgid ""
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Actualitza els paquets del contenidor Libertine. També actualitza la "
+"configuració regional del contenidor i instal·la els paquets d’idiomes "
+"necessaris si la configuració regional de l’amfitrió ha canviat."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "Llista tots els contenidors Libertine."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "Llista els llançadors d'app disponibles a un contenidor."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "usa JSON com a format de sortida."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "La comanda a executar en el contenidor especificat."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Configura diverses opcions al contenidor Libertine especificat."
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "Suport i386 multiarch"
+msgstr "Suport multiarquitectura"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "Habilita o deshabilita el suport multiarquitectura d'un contenidor."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
 msgstr ""
+"Habilita o deshabilita el suport multiarquitectura i386 per a contenidors "
+"Libertine amd64. Aquesta opció no tendrà cap efecte si el contenidor "
+"Libertine ja és i386."
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Dispòsits addicionals"
+msgstr "Dipòsits d'arxiu addicionals"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Dipòsits i PPA addicionals"
+msgstr "Afegiu o elimineu un arxiu addicional (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
-msgstr ""
+msgstr "Afegeix o elimina un arxiu (PPA) al contenidor Libertine especificat."
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "nom del contenidor"
+msgstr "Nom de l'arxiu"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "El nom de l'arxiu a afegir o eliminar."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Fitxer de clau pública"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"Fitxer que conté la clau utilitzada per signar un arxiu. Útil per arxius de "
+"tercers o privats."
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Dispòsits addicionals"
+msgstr "Punts de muntatge lligats addicionals"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Afegeix o elimina un muntatge lligat addicional."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
 msgstr ""
+"Afegeix o elimina un muntatge lligar al contenidor Libertine especificat."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Ruta de muntatge"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "La ruta absoluta al hoste per al muntatge lligat."
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Elimina el contenidor"
+msgstr "Congela el suport del contenidor"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
 msgstr ""
+"Habilita o deshabilita la congelació dels contenidors lxc/lxd quan no "
+"s'utilitzin."
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Habilita o deshabilita la congelació dels contenidors lxc/lxd quan no "
+"s'utilitzen. Al deshabilitar-ho, el contenidor s’aturarà."
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Contenidor per defecte"
+msgstr "Estableix el contenidor per defecte."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Info del contenidor"
+msgstr "Identificador del contenidor"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Contenidor per defecte"
+msgstr "Neteja el contenidor per defecte."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Reinicia un contenidor Libertine congelat. Només funciona a contenidors de "
+"tipus lxc o lxd."
 
 #~ msgid "new"
 #~ msgstr "nou"
