@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-03-23 22:50+0000\n"
-"Last-Translator: JBBgameich <jbb.mail@gmx.de>\n"
+"PO-Revision-Date: 2020-03-15 11:22+0000\n"
+"Last-Translator: Otto Hakstetter <otto@hakstetter.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -17,111 +17,109 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "Container App '{application_name}' ist ungültig."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "AptCache wird aktuell innerhalb von Snap Umgebungen nicht unterstützt"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "{socket} Verbingun geschlossen"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "Starte {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD empfangen"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "gestartetes Programm beendet"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT empfangen"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "Tastatur unterbrochen"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERM empfangen"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "Beenden"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "Unbekanntes Signal {signal} empfangen"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Starte eine Anwendung nativ oder in einem Libertine Container"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "Container ID für das starten von containerisierten Apps"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Setzte eine Umgebungsvariable"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "exec line"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Eine exec line muss angegeben werden"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Starte eine SSH Sitzung innerhalb eines lxc/lxd Libertine Container"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Container-Info"
+msgstr "Container-ID"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "Containername"
+msgstr "Container Benutzername"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "SSH Schlüssel können genutzt werden"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Ja für alle Anfragen"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
-msgstr ""
+msgstr "ID Datei in '{}' nicht gefunden. Wird standardmäßig leer gelassen."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "Zugehörigen öffentlichen Schlüssel nicht gefunden '{}'."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Eingestellte ID Datei or öffentlicher Schlüssel passen nicht '{}' oder "
+"existieren nicht."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -129,67 +127,79 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Es sieht so aus als wären keine SSH Schlüssel eingerichtet. Generier einen "
+"neuen Schlüssel und versuch es erneut. Du kannst folgenden Behfel nutzten um "
+"einen passenden Schlüssel zu generieren:\n"
+"ssh-keygen -t rsa -b 4096 -C 'deine_email@beispiel.de'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Nutzte immer '{}' als ID Datei und den Benutzernamen '{}' zum verbinden mit "
+"'{}'? [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Nutzte immer '{}' als ID Datei zur Verbindung mit '{}'? [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"sshd nicht gefunden. Du kannst openssh mit folgendem Befehl installieren\n"
+"apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' ist ein '{}' Container. Nur 'lxd' oder 'lxc' Container sind mit diesem "
+"Tool nutzbar."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
-msgstr ""
+msgstr "openssh-server in '{}' nicht gefunden. Jetzt installieren? [Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Installation von openssh-server fehlgeschlagen"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "IP-Adresse von '{}' nicht gefunden"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
 msgstr ""
+"OK um den öffentlichen Schlüssel '{}' zum Container '{}' einzufügen? [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
 msgstr ""
+"Öffentlicher Schlüssel müss zum Container hinzugefügt werden um fortzufahren."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
-msgstr ""
+msgstr "Hinzugen des öffentlichen Schlüssels zum Container fehlgeschlagen."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Kein Container mit '{container_id}' gefunden"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -197,16 +207,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Backend des Containers '{id}' nicht installiert. Installier "
+"'python3-libertine-{type}' und versuche es erneut."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Ungültige Distribution {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Container ID '{container_id}' ist schon vergeben."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -214,6 +226,7 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"Container ID '{container_id}' ungültig. ID-Format ([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -221,6 +234,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Der System Kernel unterstützt nicht {container_type} Typ Container. Bitte "
+"nutzte chroot oder die -t Option."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -229,6 +244,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"Die Container Distribution muss die selbe wie die des Hosts sein um chroot "
+"basierte Container nutzten zu können. Bitte nutzte '{host_distro}' or die -d/"
+"--distro Option."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -239,56 +257,56 @@ msgstr ""
 "um kein Passwort zu setzten:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Container aktualisieren"
+msgstr "Containererstellung fehlgeschlagen"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Erstellung vom Container fehlgeschlagen: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} existiert nicht."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "Das Paket %1 ist bereits installiert."
+msgstr "Das Paket '{package_name}' ist bereits installiert."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Installation von '{package_name}' in Container '{container_id}' "
+"fehlgeschlagen"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "Das Paket %1 ist bereits installiert."
+msgstr "Das Paket '{package_name}' ist bereits installiert."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Entfernen des Pakets '{package_name}' vom Container '{package_id}' "
+"fehgeschlagen"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
 msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
-msgstr ""
+msgstr "'{query_string}' in Container '{container_id}' nicht gefunden"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "i386 multiarch Unterstützung ist schon {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
@@ -299,7 +317,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} wurde zum Container schon hinzugefügt."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
