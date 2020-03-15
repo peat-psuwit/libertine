@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-15 11:22+0000\n"
+"PO-Revision-Date: 2020-03-16 18:22+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "libertine/pt/>\n"
@@ -78,11 +78,11 @@ msgstr ""
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Definir uma variável de ambiente"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "linha executável"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
@@ -102,7 +102,7 @@ msgstr "Nome do contentor"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "Chave SSH a ser usada"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
@@ -209,7 +209,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Distro inválida {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
@@ -229,6 +229,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Kernel do sistema não suporta tipo de contentores {container_type}. Por "
+"favor, use chroot ou omita a opção -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
