@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-23 08:21+0000\n"
+"PO-Revision-Date: 2020-03-16 18:22+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "libertine/fr/>\n"
@@ -217,16 +217,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Le support du conteneur « {id} » n'est pas installée. Installez « "
+"python3-libertine-{type} » et réessayez."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Distribution {distro} invalide"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "L'identifiant de conteneur « {container_id} » est déjà utilisé."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -234,6 +236,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"L'identifiant de conteneur « {container_id} » est invalide. Il doit être de "
+"la forme ([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -241,6 +245,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Le noyau du système ne prend pas en charge les conteneurs de type "
+"{container_type}. Veuillez utiliser chroot ou ne pas indiquer l'option -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -249,6 +255,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"La distribution du conteneur doit correspondre à la distribution de l'hôte "
+"pour les conteneurs basés sur chroot. Veuillez utiliser « {host_distro} » ou "
+"ne pas indiquer l'option -d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -259,44 +268,44 @@ msgstr ""
 "Libertine ou laissez vide pour ne pas configurer de mot de passe :"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Mettre à jour le conteneur"
+msgstr "Échec lors de la création du conteneur"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Échec lors de la création du conteneur : « {error} »"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} n'existe pas."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "Le paquet %1 est déjà installé."
+msgstr "Le paquet « {package_name} » est déjà installé."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Le paquet « {package_name} » n'a pas pu être installé dans le conteneur « "
+"{container_id} »"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "Le paquet %1 est déjà installé."
+msgstr "Le paquet « {package_name} » n'est pas installé."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Le paquet « {package_name} » n'a pas pu être désinstallé du conteneur « "
+"{container_id} »"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -304,38 +313,44 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"La recherche de « {query_string} » dans le conteneur « {container_id} » "
+"s'est terminée avec un statut non nul"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "Le support multiarchitecture i386 est déjà {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
+"L'archive de configuration a été appelée sans nom d'archive. Consultez "
+"configure --help pour l'utilisation."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} a déjà été ajouté dans le conteneur."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} n'est pas ajouté dans le conteneur."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} n'as pas été correctement supprimé."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"Les liaisons de montage de configuration ont été appelées sans chemin de "
+"montage. Consultez configure --help pour l'utilisation."
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -343,31 +358,42 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"Impossible de monter {mount_path}, le chemin de montage doit être dans "
+"{home_dir} ou /media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
 msgstr ""
+"Les montages de /media ne sont pas actuellement pris en charge dans lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Impossible de monter « {mount_path} », le chemin de montage doit être un "
+"répertoire existant."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
 msgstr ""
+"Impossible d'ajouter le montage « {mount_path} », la liaison de montage "
+"existe déjà."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
 msgstr ""
+"Impossible de supprimer « {mount_path} », la liaison de montage n'existe pas."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"Le conteneur ne peut pas être redémarré pour le moment. Vous devrez "
+"redémarrer le conteneur ultérieurement en utilisant la sous commande « "
+"restart »."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
@@ -581,11 +607,13 @@ msgstr "Archives supplémentaires"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Ajouter ou supprimer une liaison de montage supplémentaire."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
 msgstr ""
+"Ajoute ou supprime une liaison de montage dans le conteneur Libertine "
+"spécifié."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
@@ -593,7 +621,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Le chemin absolu de l'hôte pour la liaison de montage."
 
 #: ../tools/libertine-container-manager:638
 #, fuzzy
