@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-15 11:22+0000\n"
-"Last-Translator: Otto Hakstetter <otto@hakstetter.de>\n"
+"PO-Revision-Date: 2020-03-24 07:06+0000\n"
+"Last-Translator: gupi <c.thiess@web.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -26,7 +26,7 @@ msgstr "Container App '{application_name}' ist ungültig."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr "AptCache wird aktuell innerhalb von Snap Umgebungen nicht unterstützt"
+msgstr "AptCache wird aktuell innerhalb von Snap-Umgebungen nicht unterstützt"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
@@ -81,7 +81,7 @@ msgstr "Setzte eine Umgebungsvariable"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr "exec line"
+msgstr "Exec-Zeile"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
@@ -293,8 +293,8 @@ msgstr "Das Paket '{package_name}' ist bereits installiert."
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
-"Entfernen des Pakets '{package_name}' vom Container '{package_id}' "
-"fehgeschlagen"
+"Entfernen des Pakets '{package_name}' vom Container '{container_id}' "
+"fehlgeschlagen"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -317,17 +317,17 @@ msgstr ""
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr "{archive_name} wurde zum Container schon hinzugefügt."
+msgstr "{archive_name} wurde bereits zum Container hinzugefügt."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} wurde nicht im Container hinzugefügt."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} wurde nicht ordentlich gelöscht."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
@@ -366,6 +366,9 @@ msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"Der Container kann zurzeit nicht neu gestartet werden. Sie müssen den "
+"Container zu einem späteren Zeitpunkt mithilfe des 'Neustarten'-Unterbefehls "
+"neu starten."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
@@ -378,6 +381,8 @@ msgstr ""
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
 msgstr ""
+"Der 'Neustarten'-Unterbefehl  ist nur für Container des Typs LXC und LXD "
+"gültig."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
@@ -386,19 +391,19 @@ msgstr ""
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "Bitte führen Sie '{program_name}' nicht mithilfe von sudo aus"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "deaktiviert alle nicht wesentlichen Ausgaben"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "aktiviert Debug-Ausgabe"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Einen neuen Libertine Container erstellen."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
@@ -407,22 +412,24 @@ msgstr ""
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
 msgstr ""
+"Art des zu erstellenden Libertine Containers. Entweder 'lxd', 'lxc' oder "
+"'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Zu erstellende Ubuntu-Distributionsserie."
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "Containername"
+msgstr "Benutzerfreundlicher Containername."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Installation der gegebenen gültigen Ubuntu-Distribution erzwingen, selbst "
+"wenn diese nicht mehr unterstützt wird."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
@@ -435,10 +442,12 @@ msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Überliefern des Nutzerpassworts beim Erstellen eines LXC-Containers. Dies "
+"ist nur für Testzwecke gedacht und ist sehr unsicher."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Jegliche bestehende Umgebung vollständig zerstören."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -451,7 +460,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:670
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
-msgstr ""
+msgstr "Container-ID. Bei Nichtangabe wird der Standard-Container genutzt."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
@@ -460,37 +469,46 @@ msgstr ""
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
 msgstr ""
+"Ein oder mehrere Pakete im angegebenen Libertine Container installieren."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"Name des Pakets oder vollständigen Pfads zu einem Debian-Paket. Mehrere "
+"Pakete können durch Komma getrennt eingegeben werden. Erforderlich."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Kein Dialogmodus. Nutzung eines textbasierten Frontends während debconf-"
+"Interaktionen."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Ein Paket im angegebenen Libertine Container entfernen."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"Name des zu entfernenden Pakets. Es können mehrere durch Komma getrennte "
+"Pakete eingegeben werden. Erforderlich."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Suche nach Paketen entsprechend dem Suchbegriff im angegebenen Libertine "
+"Container."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Im Paket-Cache zu suchende Zeichenfolge. Erforderlich."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -501,7 +519,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "Alle Libertine Container auflisten."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
@@ -509,15 +527,15 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "JSON-Ausgabeformat nutzen."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "Der im angegebenen Container auszuführende Befehl."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Diverse Optionen im angegebenen Libertine Container konfigurieren."
 
 #: ../tools/libertine-container-manager:602
 #, fuzzy
@@ -536,40 +554,38 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Zusätzliche Archive"
+msgstr "Zusätzlicher Archiv-Support"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Zusätzliche Archive und PPAs"
+msgstr "Zusätzliches Archiv (PPA) hinzufügen oder löschen."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
+"Fügt ein Archiv (PPA) im angegebenen Libertine Container hinzu oder entfernt "
+"es."
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "Containername"
+msgstr "Archivname"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "Hinzuzufügender oder zu entfernender Archivname."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Öffentliche Schlüsseldatei"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"Datei, die den Schlüssel beinhaltet, mit dem das gegebene Archiv signiert "
+"wird. Nützlich für Drittpersonen oder Privatarchive."
 
 #: ../tools/libertine-container-manager:627
 #, fuzzy
@@ -610,22 +626,16 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Standard-Container"
+msgstr "Standard-Container festlegen."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Container-Info"
+msgstr "Container-ID"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Standard-Container"
+msgstr "Standard-Container löschen."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
