@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2020-03-21 10:22+0000\n"
+"Last-Translator: Guglielmo Felici <guglielmo.felici@yahoo.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -27,50 +27,50 @@ msgstr ""
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "L'utilizzo di AptCache non è ancora supportato in ambiente snap"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "rilevata chiusura su {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "avvio di {launch_task} in corso"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "ricevuto SIGCHLD"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "il programma avviato è terminato"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "ricevuto SIGINT"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "interrupt da tastiera"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "ricevuto SIGTERM"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "termina"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "ricevuto segnale sconosciuto {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Avvia un'applicazione nativamente on in un container Libertine"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Imposta una variabile d'ambiente"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Avvia una sessione SSH all'interno di un container Libertine lxc/lxd"
 
 #: ../tools/libertine-shell:43
 #, fuzzy
@@ -106,7 +106,7 @@ msgstr "nome contenitore"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "chiave SSH da utilizzare"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "Chiave pubblica corrispondente per '{}' non trovata."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
@@ -130,6 +130,10 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Sembra che non sia configurata alcuna chiave SSH. Generare una chiave e "
+"riprovare. È possibile utilizzare il comando seguente per generare una "
+"chiave appropriata:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
@@ -144,18 +148,20 @@ msgstr ""
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "S"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "s"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"sshd non trovato. È possibile installare openssh con il comando seguente:\n"
+"\t apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
@@ -166,14 +172,16 @@ msgstr ""
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"openssh-server non è stato rilevato nel container '{}'. Installarlo adesso? "
+"[Sn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Impossibile installare openssh-server"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Impossibile rilevare l'indirizzo IP per '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
@@ -181,16 +189,18 @@ msgstr ""
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Le chiavi pubbliche devono essere aggiunte al container per continuare."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Impossibile aggiungere la chiave pubblica alle chiavi autorizzate del "
+"container."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Non esiste un container con id '{container_id}'"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -202,7 +212,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Distribuzione {distro} non valida"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
@@ -222,6 +232,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Il kerner di sistema non supporta container di tipo {container_type}. Usare "
+"chroot od omettere l'opzione -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -240,44 +252,44 @@ msgstr ""
 "vuoto per non avere password:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Aggiorna contenitore"
+msgstr "Impossibile creare il container"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Impossibile creare il container: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "Il pacchetto {package_name} non esiste."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "Il pacchetto %1 è già installato."
+msgstr "Il pacchetto '{package_name}' è già installato."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Impossibile installare il pacchetto '{package_name}' nel container "
+"'{container_id}'"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "Il pacchetto %1 è già installato."
+msgstr "Il pacchetto '{package_name}' non è installato."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Impossibile rimuovere il pacchetto '{package_name}' dal container "
+"'{container_id}'"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -285,11 +297,13 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"La ricerca di '{query_string}' nel container '{container_id}' è terminata "
+"con stato non-zero"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "Il supporto per multiarch i386 è già {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
@@ -324,6 +338,8 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"Impossibile montare {mounth_path}, il percorso di mount dev'essere in "
+"{home_dir} o in /media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
@@ -333,6 +349,8 @@ msgstr ""
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Impossibile montare '{mount_path}', il percorso di mount dev'essere una "
+"directory esistente."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
@@ -349,6 +367,8 @@ msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"Il container non può essere riavviato al momento. È necessario riavviare il "
+"container più tardi usando il subcommand 'restart'."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."

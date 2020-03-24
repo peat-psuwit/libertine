@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-01 20:22+0000\n"
+"PO-Revision-Date: 2020-03-15 11:22+0000\n"
 "Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "libertine/ru/>\n"
@@ -64,7 +64,7 @@ msgstr "принят SIGTERM"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "остановить"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
@@ -73,11 +73,11 @@ msgstr "получен неизвестный сигнал {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Запустить приложение напрямую или в контейнере Libertine"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "Идентификатор  контейнера для запускаемых в нём приложений"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
@@ -110,7 +110,7 @@ msgstr "Ключ SSH, который будет использоваться"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Ответить \"да\" на все запросы"
 
 #: ../tools/libertine-shell:72
 #, fuzzy
@@ -127,6 +127,8 @@ msgstr "Ответный публичный ключ не найден для '{
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Сконфигурированный идентификатор или публичный ключ, соответствующий '{}', "
+"не существует."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -445,8 +447,9 @@ msgstr ""
 "Тип создаваемого Libertine-контейнера. Три типа - 'lxd', 'lxc' или 'chroot'."
 
 #: ../tools/libertine-container-manager:474
+#, fuzzy
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Дистрибутивы Ubuntu, которые будут установлены"
 
 #: ../tools/libertine-container-manager:477
 msgid "User friendly container name."
@@ -519,8 +522,11 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
+#, fuzzy
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Нет диалогового режима. Используйте текстовые команды во время работы с "
+"debconf."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
@@ -542,7 +548,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Строка для поиска в кэше пакета. Необходимый параметр."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -559,8 +565,9 @@ msgid "List all Libertine containers."
 msgstr "Список всех контейнеров Libertine."
 
 #: ../tools/libertine-container-manager:572
+#, fuzzy
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "Список всех доступных app launchers в контейнере."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
