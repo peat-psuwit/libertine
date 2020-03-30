@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-27 13:22+0000\n"
-"Last-Translator: Ricardo Jorge de Almeida Dias <ricardojadias@outlook.com>\n"
+"PO-Revision-Date: 2020-03-29 19:22+0000\n"
+"Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "libertine/pt/>\n"
 "Language: pt\n"
@@ -541,7 +541,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Ficheiro de chave pública"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
@@ -563,7 +563,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Caminho de montagem"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
