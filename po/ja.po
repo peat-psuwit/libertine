@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-11-10 18:36+0000\n"
+"PO-Revision-Date: 2020-04-01 13:22+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "libertine/ja/>\n"
@@ -22,33 +22,33 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "コンテナアプリ '{application_name}' は不正です。"
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "Snap 環境での AptCache の使用はサポートされていません"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "{socket} が閉じられました"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "{launch_task} を起動中"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD を受信"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "プログラムが終了しました"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT を受信"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
