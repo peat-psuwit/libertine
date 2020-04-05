@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-29 06:49+0000\n"
-"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
+"PO-Revision-Date: 2020-03-30 14:57+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "libertine/cs/>\n"
 "Language: cs\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr "Neplatná aplikace z kontejneru  '{application_name}' ."
+msgstr "Kontejnerová aplikace „{application_name}“ není platná."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
@@ -31,16 +31,16 @@ msgstr "Použití AptCache není zatím v prostředí snap podporováno"
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr "uzavřít detekovaný {socket}"
+msgstr "na {socket} zjištěno zavření"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr "spouštím {launch_task}"
+msgstr "spouštětní {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr "SIGCHLD doručen"
+msgstr "obdržen signál SIGCHLD"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
@@ -48,7 +48,7 @@ msgstr "spuštěný program byl ukončen"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr "SIGINT doručen"
+msgstr "obdržen signál SIGINT"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
@@ -56,7 +56,7 @@ msgstr "přerušení klávesnice"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr "SIGTERM doručen"
+msgstr "obdržen signál SIGTERM"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
@@ -65,7 +65,7 @@ msgstr "ukončit"
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr "přijat neznámý signál {signal}"
+msgstr "obdržen neznámý signál {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
@@ -89,7 +89,7 @@ msgstr "Je třeba zadat spouštěcí řádek"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr "Spusťte relaci SSH v kontejneru Libertine lxc / lxd"
+msgstr "Spusťte SSH relaci v rámci Libertine lxc/lxd kontejneru"
 
 #: ../tools/libertine-shell:43
 msgid "Container identifier"
@@ -101,25 +101,25 @@ msgstr "Uživatelské jméno kontejneru"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr "Použít klíč SSH"
+msgstr "Použít SSH klíč"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr "Předpokládejte ano všem výzvám"
+msgstr "Předpokládet ano u všech výzev"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
-"Identifikační soubor nebyl nalezen v '{}'.  Jako výchozí ponechte prázdné."
+"Soubor s identitou nebyl v „{}“ nelezen.  Jako výchozí ponechte prázdné."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr "Odpovídající veřejný klíč nebyl nalezen pro '{}'."
+msgstr "Pro „{}“ nebyl nalezen odpovídající veřejný klíč."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
-"Konfigurovaný soubor identity nebo veřejný klíč odpovídající '{}' neexistují."
+"Nastavený soubor s identitou nebo veřejný klíč odpovídající „{}“ neexistuje."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -127,22 +127,21 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
-"Vypadá to, že nejsou nastaveny žádné klíče SSH.  Vygenerujte klíč a zkuste "
-"to znovu.  K vygenerování příslušného klíče můžete použít následující příkaz:"
-"\n"
-" ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
+"Vypadá to, že nejsou nastaveny žádné SSH klíče. Vytvořte ho a zkuste to "
+"znovu. K vytvoření můžete použít následující příkaz:\n"
+" ssh-keygen -t rsa -b 4096 -C 'vas_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
-"Pro připojení k '{}' vždy použít '{}' jako soubor identity a uživatelské "
-"jméno '{}'?  [Yn]"
+"Pro připojení k „{}“ vždy použít „{}“ jako soubor identity a uživatelské "
+"jméno „{}“?  [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr "Pro připojení k '{}' vždy použít '{}' jako soubor identity?  [Yn]"
+msgstr "Pro připojení k „{}“ vždy použít „{}“ jako soubor identity?  [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
@@ -159,8 +158,8 @@ msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
-"Nebyl nalezen žádný sshd.  Můžete ho nainstalovat openssh pomocí "
-"následujícího příkazu:\n"
+"Nenalezen proces služby sshd. Openssh, kterého je součástí, můžete "
+"nainstalovat pomocí následujícího příkazu:\n"
 " apt install openssh-client"
 
 #: ../tools/libertine-shell:197
@@ -168,7 +167,7 @@ msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
-"'{}' je kontejner '{}'.  Tento nástroj mohou používat pouze kontejnery „lxd“ "
+"„{}“ je kontejner '{}'.  Tento nástroj mohou používat pouze kontejnery „lxd“ "
 "nebo „lxc“."
 
 #: ../tools/libertine-shell:208
