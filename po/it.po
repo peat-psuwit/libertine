@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-03-21 10:22+0000\n"
-"Last-Translator: Guglielmo Felici <guglielmo.felici@yahoo.it>\n"
+"PO-Revision-Date: 2020-04-17 09:23+0000\n"
+"Last-Translator: Federico Turbino <bisio.97@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -110,7 +110,7 @@ msgstr "chiave SSH da utilizzare"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Presupponi sì a ogni richiesta"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
