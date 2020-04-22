@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-12-29 01:00+0000\n"
+"PO-Revision-Date: 2020-04-23 18:23+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "libertine/lt/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "Šiuo metu AptCache naudojimas snap aplinkoje yra nepalaikomas"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
@@ -38,7 +38,7 @@ msgstr ""
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "paleidžiama {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
