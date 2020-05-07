@@ -28,31 +28,12 @@
 
 namespace
 {
+
 constexpr auto SERVICE_INTERFACE            = "com.canonical.libertine.Service";
 constexpr auto OPERATIONS_INTERFACE         = "com.canonical.libertine.Service.Operations";
 constexpr auto OPERATIONS_OBJECT            = "/com/canonical/libertine/Service/Operations";
 constexpr auto OPERATIONS_MONITOR_INTERFACE = "com.canonical.libertine.Service.OperationsMonitor";
 constexpr auto OPERATIONS_MONITOR_OBJECT    = "/com/canonical/libertine/Service/OperationsMonitor";
-constexpr auto SESSION_DBUS_ENV_VAR         = "DBUS_SESSION_BUS_ADDRESS";
-constexpr auto SERVICE_NAME                 = "libertined";
-
-
-class SessionBus
-{
-public:
-  explicit SessionBus()
-  /* NOTE: Must get the envvar each time or Qt caches that too */
-  : bus{QDBusConnection::connectToBus(getenv(SESSION_DBUS_ENV_VAR), SERVICE_NAME)}
-  { }
-
-  virtual ~SessionBus()
-  {
-    QDBusConnection::disconnectFromBus(SERVICE_NAME);
-  }
-
-  QDBusConnection bus;
-};
-
 
 static QVariantList
 dbusCall(QDBusConnection const& bus, QString const& iface, QString const& path,
@@ -143,22 +124,22 @@ waitForFinish(QDBusConnection const& bus, QString const& path)
 QString
 container_info(char const* container_id, QString const& key)
 {
-  SessionBus session;
-  auto path = call(session.bus, "container_info", QVariantList{QVariant(container_id)});
+  auto bus = QDBusConnection::sessionBus();
+  auto path = call(bus, "container_info", QVariantList{QVariant(container_id)});
 
-  if (!waitForFinish(session.bus, path))
+  if (!waitForFinish(bus, path))
   {
     return QString();
   }
 
-  auto error = lastError(session.bus, path);
+  auto error = lastError(bus, path);
   if (!error.isEmpty())
   {
     qWarning() << "error:" << error;
     return QString();
   }
 
-  return QJsonDocument::fromJson(result(session.bus, path).toLatin1()).object().value(key).toString();
+  return QJsonDocument::fromJson(result(bus, path).toLatin1()).object().value(key).toString();
 }
 }
 
@@ -166,43 +147,43 @@ container_info(char const* container_id, QString const& key)
 QJsonArray
 libertined_list()
 {
-  SessionBus session;
-  auto path = call(session.bus, "list", QVariantList());
+  auto bus = QDBusConnection::sessionBus();
+  auto path = call(bus, "list", QVariantList());
 
-  if (!waitForFinish(session.bus, path))
+  if (!waitForFinish(bus, path))
   {
     return QJsonArray();
   }
 
-  auto error = lastError(session.bus, path);
+  auto error = lastError(bus, path);
   if (!error.isEmpty())
   {
     qWarning() << "error:" << error;
     return QJsonArray();
   }
 
-  return QJsonDocument::fromJson(result(session.bus, path).toLatin1()).array();
+  return QJsonDocument::fromJson(result(bus, path).toLatin1()).array();
 }
 
 QJsonArray
 libertined_list_app_ids(char const* container_id)
 {
-  SessionBus session;
-  auto path = call(session.bus, "list_app_ids", QVariantList{QVariant(container_id)});
+  auto bus = QDBusConnection::sessionBus();
+  auto path = call(bus, "list_app_ids", QVariantList{QVariant(container_id)});
 
-  if (!waitForFinish(session.bus, path))
+  if (!waitForFinish(bus, path))
   {
     return QJsonArray();
   }
 
-  auto error = lastError(session.bus, path);
+  auto error = lastError(bus, path);
   if (!error.isEmpty())
   {
     qWarning() << "error:" << error;
     return QJsonArray();
   }
 
-  return QJsonDocument::fromJson(result(session.bus, path).toLatin1()).array();
+  return QJsonDocument::fromJson(result(bus, path).toLatin1()).array();
 }
 
 QString
